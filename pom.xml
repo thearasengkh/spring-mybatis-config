@@ -7,9 +7,11 @@
     <groupId>com.theara</groupId>
     <artifactId>spring-mybatis</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring.version>4.2.5.RELEASE</spring.version>
     </properties>
 
     <build>
@@ -27,10 +29,23 @@
 
     <dependencies>
 
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>4.2.5.RELEASE</version>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${spring.version}</version>
         </dependency>
 
         <dependency>
@@ -45,11 +60,11 @@
             <version>3.4.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis-ehcache</artifactId>
-            <version>1.0.0</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.mybatis</groupId>-->
+            <!--<artifactId>mybatis-ehcache</artifactId>-->
+            <!--<version>1.0.0</version>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>org.mybatis</groupId>
@@ -61,6 +76,18 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.8.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.8.1</version>
         </dependency>
 
     </dependencies>
