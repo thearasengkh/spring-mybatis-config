@@ -3,8 +3,8 @@ package com.theara.spring.controller;
 import com.theara.spring.model.User;
 import com.theara.spring.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -12,15 +12,16 @@ import org.springframework.web.bind.annotation.RestController;
  * created on Apr 23, 2019
  */
 
-@RestController("/api/users")
+@RestController
+@RequestMapping("/api/users")
 public class UserController {
 
     @Autowired
     private UserService userService;
 
-    @RequestMapping(method = RequestMethod.GET)
-    public User getUserInfo() {
-        return userService.getUserInfoByEmail("hahaha");
+    @RequestMapping("/{email}")
+    public User getUserInfo(@PathVariable String email) {
+        return userService.getUserInfoByEmail(email);
     }
 
 }
