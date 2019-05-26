@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 /**
  * @author Theara Seng
  * created on Apr 23, 2019
@@ -18,6 +20,11 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+
+    @RequestMapping
+    public List<User> getAllUsers() {
+        return userService.selectAll();
+    }
 
     @RequestMapping("/{email}")
     public User getUserInfo(@PathVariable String email) {

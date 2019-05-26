@@ -6,4 +6,6 @@
 
     <context:component-scan base-package="com.theara.spring.service" />
 
+    <import resource="datasource-config.xml" />
+
 </beans>
