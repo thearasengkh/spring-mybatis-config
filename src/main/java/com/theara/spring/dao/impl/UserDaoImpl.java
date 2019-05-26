@@ -16,7 +16,6 @@ public class UserDaoImpl extends SqlSessionDaoSupport implements UserDao {
     private static final String namespace = User.class.getName();
 
     public List<User> selectAll() {
-        System.out.println( String.format("namespace = %s", namespace) );
         return this.getSqlSession().selectList(namespace.concat(".selectAll"));
     }
 
