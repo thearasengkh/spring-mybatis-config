@@ -10,7 +10,7 @@
         <property name="driverClassName" value="org.postgresql.Driver" />
         <property name="url" value="jdbc:postgresql://localhost:5432/mybatis" />
         <property name="username" value="postgres" />
-        <property name="password" value="PH4C%zf6xR3y?p@vm7N$nD&amp;#K4ESLnWj" />
+            <property name="password" value="123456" />
     </bean>
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">

@@ -10,7 +10,9 @@
     </resultMap>
 
     <select id="selectAll" resultMap="result">
-        SELECT * FROM users;
+    <![CDATA[
+        SELECT * FROM tbl_user;
+    ]]>
     </select>
 
 </mapper>
