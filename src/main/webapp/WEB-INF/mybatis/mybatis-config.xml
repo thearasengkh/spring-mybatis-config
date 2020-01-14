@@ -3,12 +3,14 @@
     "http://mybatis.org/dtd/mybatis-3-config.dtd">
 
 <configuration>
+
+    <settings>
+        <setting name="safeResultHandlerEnabled" value="false"/>
+        <setting name="callSettersOnNulls" value="true"/>
+    </settings>
+
     <typeAliases>
-        <typeAlias alias="User" type="com.theara.spring.model.User"/>
-        <typeAlias alias="User" type="com.theara.spring.model.User"/>
+        <typeAlias alias="MData" type="com.theara.spring.model.MData"/>
     </typeAliases>
 
-    <mappers>
-        <mapper resource="mybatis/mapper/User.xml" />
-    </mappers>
 </configuration>

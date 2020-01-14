@@ -4,28 +4,30 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!--<context:component-scan base-package="com.theara.spring.dao" />-->
+    <!-- Scan all repository beans -->
+    <context:component-scan base-package="com.theara.spring.repository" />
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="org.postgresql.Driver" />
         <property name="url" value="jdbc:postgresql://localhost:5432/mybatis" />
         <property name="username" value="postgres" />
-            <property name="password" value="123456" />
+        <property name="password" value="123456" />
     </bean>
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource" />
         <property name="configLocation" value="/WEB-INF/mybatis/mybatis-config.xml" />
+        <property name="mapperLocations" value="classpath:mybatis/mapper/sql/*.xml" />
     </bean>
 
-    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+    <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
         <constructor-arg index="0" ref="sqlSessionFactory" />
     </bean>
 
     <!-- begin DAO beans -->
 
-    <bean class="com.theara.spring.dao.impl.UserDaoImpl">
-        <property name="sqlSessionTemplate" ref="sqlSession" />
+    <bean class="com.theara.spring.dao.impl.MDataDaoImpl">
+        <property name="sqlSessionTemplate" ref="sqlSessionTemplate" />
     </bean>
 
     <!-- end DAO beans -->
