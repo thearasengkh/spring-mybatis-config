@@ -17,7 +17,7 @@ public class SoapController {
         return "index.jsp";
     }
 
-    @RequestMapping(value ="/soap/api", method = RequestMethod.GET)
+    @RequestMapping(value ="/soap/api", method = RequestMethod.POST)
     public String test() {
         return "success-response.jsp";
     }
