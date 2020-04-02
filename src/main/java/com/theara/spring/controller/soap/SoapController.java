@@ -1,10 +1,12 @@
 package com.theara.spring.controller.soap;
 
+import com.theara.spring.model.cbc.REQUEST;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.servlet.ModelAndView;
 
 /**
  * @author Theara Seng
@@ -14,17 +16,18 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class SoapController {
 
-    private long lastNo = 1427;
-
     @RequestMapping(value ="/", method = RequestMethod.GET)
     public String whatever() {
         return "index.jsp";
     }
 
-    @RequestMapping(value ="/soap/api", method = RequestMethod.POST)
-    public String test(Model model) {
-        model.addAttribute("referenceNo", "2020000" + lastNo++);
-        return "success-response.jsp";
+    @RequestMapping(value ="/soap/api", method = RequestMethod.POST, consumes = MediaType.TEXT_XML_VALUE)
+    public String test(@RequestBody REQUEST request, Model model) {
+
+        String referenceNo = request.getMESSAGE().getENQUIRY().getENQUIRY_REFERENCE();
+        model.addAttribute("referenceNo", referenceNo);
+
+        return "mock-up-response";
     }
 
 }
