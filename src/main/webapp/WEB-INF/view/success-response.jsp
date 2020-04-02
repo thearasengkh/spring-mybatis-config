@@ -12,7 +12,7 @@ encoding="UTF-8"?>
     </HEADER>
     <MESSAGE>
         <ITEM>
-            <ENQUIRY_REFERENCE>20200001426</ENQUIRY_REFERENCE>
+            <ENQUIRY_REFERENCE>${referenceNo}</ENQUIRY_REFERENCE>
             <RSP_REPORT>
                 <ENQUIRY_TYPE>NA</ENQUIRY_TYPE>
                 <REPORT_DATE>02/04/2020</REPORT_DATE>
@@ -20,7 +20,7 @@ encoding="UTF-8"?>
                 <PRODUCT_TYPE>PHL</PRODUCT_TYPE>
                 <NO_OF_APPLICANTS>2</NO_OF_APPLICANTS>
                 <ACCOUNT_TYPE>J</ACCOUNT_TYPE>
-                <ENQUIRY_REFERENCE>20200001426</ENQUIRY_REFERENCE>
+                <ENQUIRY_REFERENCE>${referenceNo}</ENQUIRY_REFERENCE>
                 <AMOUNT>30000.00</AMOUNT>
                 <CURRENCY>USD</CURRENCY>
                 <CONSUMER>
