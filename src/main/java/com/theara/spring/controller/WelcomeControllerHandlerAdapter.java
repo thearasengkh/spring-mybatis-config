@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
  * created on Apr 02, 2020
  */
 
-public class WelcomeController extends AbstractController {
+public class WelcomeControllerHandlerAdapter extends AbstractController {
 
     @Override
     protected ModelAndView handleRequestInternal(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws Exception {

@@ -20,12 +20,16 @@
     <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
         <property name="mappings">
             <value>
-                /simpleUrlHandlerMapping=welcomeController
-                /simpleUrlHandlerMapping/*=welcomeController
+                /simpleUrlHandlerMapping=welcomeControllerHandlerAdapter
+                /simpleUrlHandlerMapping/*=welcomeControllerHandlerAdapter
+                /simpleServletHandlerAdapter=welcomeServletHandlerAdapter
             </value>
         </property>
     </bean>
-    <bean id="welcomeController" class="com.theara.spring.controller.WelcomeController" />
+    <bean id="welcomeControllerHandlerAdapter" class="com.theara.spring.controller.WelcomeControllerHandlerAdapter" />
+
+    <bean class="org.springframework.web.servlet.handler.SimpleServletHandlerAdapter" />
+    <bean id="welcomeServletHandlerAdapter" class="com.theara.spring.controller.WelcomeServletHandlerAdapter" />
 
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />
