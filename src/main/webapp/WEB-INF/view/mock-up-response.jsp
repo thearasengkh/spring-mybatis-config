@@ -1,159 +1,698 @@
-﻿<%@ page language="java" contentType="text/xml;charset=UTF-8" pageEncoding="UTF-8" %><?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <RESPONSE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EnquiryRspV4.xsd">
-    <SERVICE>ENQUIRYV5</SERVICE>
-    <ACTION>A</ACTION>
+    <SERVICE>ENQUIRYV4</SERVICE>
+    <ACTION>A_SC</ACTION>
     <STATUS>OK</STATUS>
     <HEADER>
-        <MEMBER_ID>001</MEMBER_ID>
-        <USER_ID>LA_UNE</USER_ID>
-        <RUN_NO>001</RUN_NO>
+        <MEMBER_ID>63</MEMBER_ID>
+        <USER_ID>PPC_XML</USER_ID>
+        <RUN_NO>1</RUN_NO>
         <TOT_ITEMS>1</TOT_ITEMS>
-        <ERR_ITEMS></ERR_ITEMS>
     </HEADER>
     <MESSAGE>
         <ITEM>
             <ENQUIRY_REFERENCE>${referenceNo}</ENQUIRY_REFERENCE>
             <RSP_REPORT>
                 <ENQUIRY_TYPE>NA</ENQUIRY_TYPE>
-                <REPORT_DATE>13/03/2020</REPORT_DATE>
-                <ENQUIRY_NO>43109548</ENQUIRY_NO>
+                <REPORT_DATE>01/04/2020</REPORT_DATE>
+                <ENQUIRY_NO>1584437918785</ENQUIRY_NO>
                 <PRODUCT_TYPE>WCL</PRODUCT_TYPE>
-                <NO_OF_APPLICANTS>1</NO_OF_APPLICANTS>
-                <ACCOUNT_TYPE>S</ACCOUNT_TYPE>
+                <NO_OF_APPLICANTS>3</NO_OF_APPLICANTS>
+                <ACCOUNT_TYPE>J</ACCOUNT_TYPE>
                 <ENQUIRY_REFERENCE>${referenceNo}</ENQUIRY_REFERENCE>
-                <AMOUNT>300000.00</AMOUNT>
-                <CURRENCY>KHR</CURRENCY>
+                <AMOUNT>20000.00</AMOUNT>
+                <CURRENCY>USD</CURRENCY>
                 <CONSUMER>
                     <CAPL>P</CAPL>
                     <CID>
                         <CID1>N</CID1>
-                        <CID2 lang="kh">061455520</CID2>
-                        <CID3>18/12/2022</CID3>
+                        <CID2 lang="kh">010352484</CID2>
+                        <CID3>14/05/2024</CID3>
                     </CID>
                     <PROVIDED>
                         <PCNAM>
-                            <PCNMFA lang="kh">ឡេង</PCNMFA>
-                            <PCNM1A lang="kh">ចាន់ណា</PCNM1A>
-                            <PCNMFE>LENG</PCNMFE>
-                            <PCNM1E>CHANNA</PCNM1E>
+                            <PCNMFE>MAO</PCNMFE>
+                            <PCNM1E>NAVY</PCNM1E>
                         </PCNAM>
-                        <PCDOB>05/08/1991</PCDOB>
+                        <PCDOB>01/01/1959</PCDOB>
                         <PCPLB>
                             <PCPLBC>KHM</PCPLBC>
-                            <PCPLBP>03</PCPLBP>
-                            <PCPLBD>0301</PCPLBD>
-                            <PCPLBCM>030107</PCPLBCM>
+                            <PCPLBP>12</PCPLBP>
                         </PCPLB>
                         <PCGND>F</PCGND>
-                        <PCMAR>M</PCMAR>
+                        <PCMAR>U</PCMAR>
                         <PCNAT>KHM</PCNAT>
-                        <PCEML />
                     </PROVIDED>
                     <AVAILABLE>
                         <ACID>
-                            <ACID1>N</ACID1>
-                            <ACID2 lang="kh">061455520</ACID2>
-                            <ACID3>18/12/2022</ACID3>
+                            <ACID1>R</ACID1>
+                            <ACID2 lang="kh">1035</ACID2>
                         </ACID>
                         <ACNAM>
-                            <ACNMFA lang="kh">ឡេង</ACNMFA>
-                            <ACNM1A lang="kh">ចាន់ណា</ACNM1A>
-                            <ACNMFE>LENG</ACNMFE>
-                            <ACNM1E>CHANNA</ACNM1E>
+                            <ACNMFA lang="kh">ម៉ៅ</ACNMFA>
+                            <ACNM1A lang="kh">ណាវី</ACNM1A>
+                            <ACNMFE>OUNG</ACNMFE>
+                            <ACNM1E>SETHY YUTH</ACNM1E>
+                            <ACNM7E>MAO NAVY</ACNM7E>
                         </ACNAM>
-                        <ACDOB>05/08/1991</ACDOB>
+                        <ACDOB>01/01/1959</ACDOB>
                         <ACPLB>
                             <ACPLBC>KHM</ACPLBC>
-                            <ACPLBP>03</ACPLBP>
-                            <ACPLBD>0301</ACPLBD>
-                            <ACPLBCM>030107</ACPLBCM>
+                            <ACPLBP>12</ACPLBP>
                         </ACPLB>
                         <ACGND>F</ACGND>
                         <ACMAR>M</ACMAR>
                         <ACNAT>KHM</ACNAT>
-                        <ACEML />
                     </AVAILABLE>
                     <ADDITIONAL_IDS>
                         <ADDITIONAL_ID>
-                            <AID_CID1>N</AID_CID1>
-                            <AID_CID2 lang="kh">110476426</AID_CID2>
-                            <AID_CID3 />
-                            <AID_LOADDT>03/02/2016</AID_LOADDT>
+                            <AID_CID1>R</AID_CID1>
+                            <AID_CID2 lang="kh">1035</AID_CID2>
+                            <AID_LOADDT>17/05/2012</AID_LOADDT>
                         </ADDITIONAL_ID>
                     </ADDITIONAL_IDS>
-                    <PREV_ENQUIRIES />
+                    <ADDITIONAL_NAMES>
+                        <ADDITIONAL_NAME>
+                            <ANM_CNM7E>MAO NAVY</ANM_CNM7E>
+                            <ANM_LOAD_DT>05/08/2013</ANM_LOAD_DT>
+                        </ADDITIONAL_NAME>
+                        <ADDITIONAL_NAME>
+                            <ANM_CNMFE>OUNG</ANM_CNMFE>
+                            <ANM_CNM1E>SETHY YUTH</ANM_CNM1E>
+                            <ANM_LOAD_DT>19/06/2013</ANM_LOAD_DT>
+                        </ADDITIONAL_NAME>
+                        <ADDITIONAL_NAME>
+                            <ANM_CNMFA lang="kh">ម៉ៅ</ANM_CNMFA>
+                            <ANM_CNM1A lang="kh">ណាវី</ANM_CNM1A>
+                            <ANM_CNMFE>MAO</ANM_CNMFE>
+                            <ANM_CNM1E>NANY</ANM_CNM1E>
+                            <ANM_LOAD_DT>17/05/2012</ANM_LOAD_DT>
+                        </ADDITIONAL_NAME>
+                        <ADDITIONAL_NAME>
+                            <ANM_CNMFA lang="kh">ម៉ៅ</ANM_CNMFA>
+                            <ANM_CNM1A lang="kh">ណាវី</ANM_CNM1A>
+                            <ANM_CNMFE>MAO</ANM_CNMFE>
+                            <ANM_CNM1E>NAVY</ANM_CNM1E>
+                            <ANM_LOAD_DT>08/03/2012</ANM_LOAD_DT>
+                        </ADDITIONAL_NAME>
+                    </ADDITIONAL_NAMES>
+                    <PREV_ENQUIRIES>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>17/03/2020</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>20190001324</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>20000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFE>MAO</PE_NMFE>
+                                <PE_NM1E>NAVY</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>15/03/2019</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-1046</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>10000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">ម៉ៅ</PE_NMFA>
+                                <PE_NM1A lang="kh">ណាវី</PE_NM1A>
+                                <PE_NMFE>Mao</PE_NMFE>
+                                <PE_NM1E>Navy</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>13/03/2018</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-874</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>11000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">ម៉ៅ</PE_NMFA>
+                                <PE_NM1A lang="kh">ណាវី</PE_NM1A>
+                                <PE_NMFE>Mao</PE_NMFE>
+                                <PE_NM1E>Navy</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>05/12/2017</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-831</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>12000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">ម៉ៅ</PE_NMFA>
+                                <PE_NM1A lang="kh">ណាវី</PE_NM1A>
+                                <PE_NMFE>MAO</PE_NMFE>
+                                <PE_NM1E>NAVY</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>14/03/2017</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-701</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>11000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">ម៉ៅ</PE_NMFA>
+                                <PE_NM1A lang="kh">ណាវី</PE_NM1A>
+                                <PE_NMFE>Mao</PE_NMFE>
+                                <PE_NM1E>Navy</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>20/09/2016</PE_DATE>
+                            <PE_ENQR>TOYOTA TSUSHO FINANCE (CAMBODIA) PLC.</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>S</PE_ACCT>
+                            <PE_MEMB_REF>5000007116</PE_MEMB_REF>
+                            <PE_PRD>CAL</PE_PRD>
+                            <PE_AMOUNT>24500.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>G</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">ម៉ៅ</PE_NMFA>
+                                <PE_NM1A lang="kh">ណាវី</PE_NM1A>
+                                <PE_NMFE>MAO</PE_NMFE>
+                                <PE_NM1E>NAVY</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>18/02/2016</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-512</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>55000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFE>Mao</PE_NMFE>
+                                <PE_NM1E>Navy</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>14/02/2015</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-369</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>60000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFE>Mao</PE_NMFE>
+                                <PE_NM1E>Navy</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>19/06/2013</PE_DATE>
+                            <PE_ENQR>ADVANCED BANK OF ASIA LTD</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>190620130138BOK101</PE_MEMB_REF>
+                            <PE_PRD>PLN</PE_PRD>
+                            <PE_AMOUNT>60000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFE>Oung</PE_NMFE>
+                                <PE_NM1E>Sethy Yuth</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>19/02/2013</PE_DATE>
+                            <PE_ENQR>DGB SPECIALIZED BANK PLC</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>S</PE_ACCT>
+                            <PE_MEMB_REF>CCM00007-010352484</PE_MEMB_REF>
+                            <PE_PRD>SME</PE_PRD>
+                            <PE_AMOUNT>20000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFE>Mao</PE_NMFE>
+                                <PE_NM1E>Navy</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>18/10/2012</PE_DATE>
+                            <PE_ENQR>DGB SPECIALIZED BANK PLC</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>CCM00008-010352484</PE_MEMB_REF>
+                            <PE_PRD>SME</PE_PRD>
+                            <PE_AMOUNT>10000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFE>Mao</PE_NMFE>
+                                <PE_NM1E>Navy</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>09/10/2012</PE_DATE>
+                            <PE_ENQR>ACLEDA BANK PLC</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>S</PE_ACCT>
+                            <PE_MEMB_REF>PDT-1083140-1</PE_MEMB_REF>
+                            <PE_PRD>SME</PE_PRD>
+                            <PE_AMOUNT>10000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">ម៉ៅ</PE_NMFA>
+                                <PE_NM1A lang="kh">ណាវី</PE_NM1A>
+                                <PE_NMFE>MAO</PE_NMFE>
+                                <PE_NM1E>NAVY</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>01/10/2012</PE_DATE>
+                            <PE_ENQR>CAMBODIAN PUBLIC BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>TTA/000067/12</PE_MEMB_REF>
+                            <PE_PRD>MTG</PE_PRD>
+                            <PE_AMOUNT>60000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFE>Mao</PE_NMFE>
+                                <PE_NM1E>Navy</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>17/05/2012</PE_DATE>
+                            <PE_ENQR>ACLEDA BANK PLC</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>PDT-1083140</PE_MEMB_REF>
+                            <PE_PRD>SME</PE_PRD>
+                            <PE_AMOUNT>32000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">ម៉ៅ</PE_NMFA>
+                                <PE_NM1A lang="kh">ណាវី</PE_NM1A>
+                                <PE_NMFE>MAO</PE_NMFE>
+                                <PE_NM1E>NANY</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                    </PREV_ENQUIRIES>
                     <ACC_DETAILS>
                         <ACC_DETAIL>
-                            <ACC_CRDTR>Advanced Bank of Asia Ltd</ACC_CRDTR>
-                            <ACC_PRD>PEL</ACC_PRD>
-                            <ACC_GRP_REF />
-                            <ACC_ACC_NO>C001000110923</ACC_ACC_NO>
+                            <ACC_CRDTR>ACLEDA BANK PLC</ACC_CRDTR>
+                            <ACC_PRD>WCL</ACC_PRD>
+                            <ACC_ACC_NO>3473LD1201900180</ACC_ACC_NO>
                             <ACC_RST_LOAN>N</ACC_RST_LOAN>
                             <ACC_CURR>USD</ACC_CURR>
-                            <ACC_LIMIT>4500.00</ACC_LIMIT>
-                            <ACC_ISSU_DT>28/07/2014</ACC_ISSU_DT>
-                            <ACC_PROD_EXP_DT>31/07/2022</ACC_PROD_EXP_DT>
-                            <ACC_STATUS>N</ACC_STATUS>
-                            <ACC_CLSD_DT />
-                            <ACC_TNR>1</ACC_TNR>
+                            <ACC_LIMIT>15000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>19/01/2012</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>18/05/2012</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>27/08/2012</ACC_CLSD_DT>
+                            <ACC_TNR>4</ACC_TNR>
                             <ACC_FRQ>M</ACC_FRQ>
-                            <ACC_INSTL>782.37</ACC_INSTL>
-                            <ACC_SEC>CA</ACC_SEC>
+                            <ACC_INSTL>13903.99</ACC_INSTL>
+                            <ACC_SEC>TO</ACC_SEC>
                             <ACC_CUB>0.00</ACC_CUB>
                             <ACC_ODB>0.00</ACC_ODB>
-                            <ACC_LAST_AMT_PD>50.00</ACC_LAST_AMT_PD>
-                            <ACC_LAST_PAY_DT>05/02/2020</ACC_LAST_PAY_DT>
-                            <ACC_AS_OF_DT>29/02/2020</ACC_AS_OF_DT>
-                            <ACC_NXT_DU_DT />
-                            <ACC_SUMMRY>000MMMMMMMMMMMMMMMMMMMMM</ACC_SUMMRY>
-                            <ACC_ADV_MSG />
-                            <ACC_CAPL>L</ACC_CAPL>
+                            <ACC_LAST_AMT_PD>13903.99</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>18/05/2012</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>20/08/2012</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>CMMM0000</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>ACLEDA BANK PLC</ACC_CRDTR>
+                            <ACC_PRD>WCL</ACC_PRD>
+                            <ACC_ACC_NO>3473LD1213900094</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>32000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>18/05/2012</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>31/12/2012</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>30/01/2013</ACC_CLSD_DT>
+                            <ACC_TNR>7</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>29004.48</ACC_INSTL>
+                            <ACC_SEC>TO</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>29004.48</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>31/12/2012</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>24/01/2013</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>C00000M00</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>DGB SPECIALIZED BANK PLC</ACC_CRDTR>
+                            <ACC_PRD>WCL</ACC_PRD>
+                            <ACC_ACC_NO>94001726016</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>10000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>01/11/2012</ACC_ISSU_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>07/02/2013</ACC_CLSD_DT>
+                            <ACC_TNR>0</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>0.00</ACC_INSTL>
+                            <ACC_SEC>TO</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>227.00</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>24/12/2012</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/01/2013</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>C00</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>DGB SPECIALIZED BANK PLC</ACC_CRDTR>
+                            <ACC_PRD>WCL</ACC_PRD>
+                            <ACC_ACC_NO>81001726026</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>30000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>28/02/2013</ACC_ISSU_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>07/08/2013</ACC_CLSD_DT>
+                            <ACC_TNR>0</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>434.00</ACC_INSTL>
+                            <ACC_SEC>TO</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>30378.00</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>18/07/2013</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/07/2013</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>CM00000</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>ADVANCED BANK OF ASIA LTD</ACC_CRDTR>
+                            <ACC_PRD>WCL</ACC_PRD>
+                            <ACC_ACC_NO>101CL040001177</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>60000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>18/07/2013</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>18/07/2021</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>25/02/2015</ACC_CLSD_DT>
+                            <ACC_TNR>96</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>0.00</ACC_INSTL>
+                            <ACC_SEC>LT</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>1018.07</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>25/02/2015</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>01/04/2015</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>C0000000000000000000Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>HVL</ACC_PRD>
+                            <ACC_ACC_NO>0213000099480</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>13/03/2015</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>13/03/2016</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>14/03/2016</ACC_CLSD_DT>
+                            <ACC_TNR>12</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>55298.69</ACC_INSTL>
+                            <ACC_SEC>LT</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>55298.69</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>14/03/2016</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/03/2016</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>C00000000000Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>HVL</ACC_PRD>
+                            <ACC_ACC_NO>0213000114298</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>14/03/2016</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>14/03/2017</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>14/03/2017</ACC_CLSD_DT>
+                            <ACC_TNR>12</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>11070.20</ACC_INSTL>
+                            <ACC_SEC>LT</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>11070.20</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>14/03/2017</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/03/2017</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>C00000000000Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>HVL</ACC_PRD>
+                            <ACC_ACC_NO>0212000134818</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>14/03/2017</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>13/03/2018</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>14/03/2018</ACC_CLSD_DT>
+                            <ACC_TNR>12</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>10077.22</ACC_INSTL>
+                            <ACC_SEC>LT</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>11077.22</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>14/03/2018</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/03/2018</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>C00000M00000Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>HVL</ACC_PRD>
+                            <ACC_ACC_NO>0212000162506</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>14/03/2018</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>13/03/2019</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>14/03/2019</ACC_CLSD_DT>
+                            <ACC_TNR>12</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>10089.32</ACC_INSTL>
+                            <ACC_SEC>LT</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>10089.32</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>14/03/2019</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/03/2019</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>C00000000000Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>HVL</ACC_PRD>
+                            <ACC_ACC_NO>0212000196652</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>14/03/2019</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>14/03/2025</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>N</ACC_STATUS>
+                            <ACC_TNR>72</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>192.91</ACC_INSTL>
+                            <ACC_SEC>LT</ACC_SEC>
+                            <ACC_CUB>9902.92</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>192.91</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>23/04/2019</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>30/04/2019</ACC_AS_OF_DT>
+                            <ACC_NXT_DU_DT>23/05/2019</ACC_NXT_DU_DT>
+                            <ACC_SUMMRY>M0Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>WCL</ACC_PRD>
+                            <ACC_ACC_NO>0212000196652</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>14/03/2019</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>14/03/2025</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>N</ACC_STATUS>
+                            <ACC_TNR>72</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>192.91</ACC_INSTL>
+                            <ACC_SEC>NO</ACC_SEC>
+                            <ACC_CUB>9804.91</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>192.91</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>23/05/2019</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/05/2019</ACC_AS_OF_DT>
+                            <ACC_NXT_DU_DT>24/06/2019</ACC_NXT_DU_DT>
+                            <ACC_SUMMRY>0MM</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
                             <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
                         </ACC_DETAIL>
                     </ACC_DETAILS>
+                    <GUARANTEED_ACCOUNTS>
+                        <GRT_ACC_DETAIL>
+                            <GRT_CRDTR>TOYOTA TSUSHO FINANCE (CAMBODIA) PLC.</GRT_CRDTR>
+                            <GRT_PRD>CAL</GRT_PRD>
+                            <GRT_ACC_NO>11000041546</GRT_ACC_NO>
+                            <GRT_RST_LOAN>N</GRT_RST_LOAN>
+                            <GRT_CURR>USD</GRT_CURR>
+                            <GRT_LIMIT>24500.00</GRT_LIMIT>
+                            <GRT_ISSU_DT>26/09/2016</GRT_ISSU_DT>
+                            <GRT_PROD_EXP_DT>22/09/2021</GRT_PROD_EXP_DT>
+                            <GRT_STATUS>C</GRT_STATUS>
+                            <GRT_CLSD_DT>27/06/2018</GRT_CLSD_DT>
+                            <GRT_TNR>60</GRT_TNR>
+                            <GRT_FRQ>M</GRT_FRQ>
+                            <GRT_INSTL>595.00</GRT_INSTL>
+                            <GRT_SEC>MV</GRT_SEC>
+                            <GRT_CUB>0.00</GRT_CUB>
+                            <GRT_ODB>0.00</GRT_ODB>
+                            <GRT_LAST_AMT_PD>18705.47</GRT_LAST_AMT_PD>
+                            <GRT_LAST_PAY_DT>27/06/2018</GRT_LAST_PAY_DT>
+                            <GRT_AS_OF_DT>30/06/2018</GRT_AS_OF_DT>
+                            <GRT_SUMMRY>C00000000000000000000Q</GRT_SUMMRY>
+                        </GRT_ACC_DETAIL>
+                    </GUARANTEED_ACCOUNTS>
                     <ADDRESSES>
                         <ADDRESS>
-                            <CA_LOAD_DT>13/03/2020</CA_LOAD_DT>
+                            <CA_LOAD_DT>17/03/2020</CA_LOAD_DT>
                             <CA_CADT>RESID</CA_CADT>
-                            <CA_PROV>03</CA_PROV>
-                            <CA_DIST>0301</CA_DIST>
-                            <CA_COMM>030107</CA_COMM>
-                            <CA_VILL>03010701</CA_VILL>
+                            <CA_PROV>12</CA_PROV>
+                            <CA_DIST>1208</CA_DIST>
+                            <CA_COMM>120802</CA_COMM>
+                            <CA_VILL>12080209</CA_VILL>
                             <CA_CAD9>KHM</CA_CAD9>
                         </ADDRESS>
                         <ADDRESS>
-                            <CA_LOAD_DT>23/09/2016</CA_LOAD_DT>
+                            <CA_LOAD_DT>15/03/2019</CA_LOAD_DT>
                             <CA_CADT>RESID</CA_CADT>
-                            <CA_PROV>07</CA_PROV>
-                            <CA_DIST>0701</CA_DIST>
-                            <CA_COMM>070101</CA_COMM>
-                            <CA_VILL>07010102</CA_VILL>
+                            <CA_PROV>12</CA_PROV>
+                            <CA_DIST>1208</CA_DIST>
+                            <CA_COMM>120802</CA_COMM>
+                            <CA_VILL>12080204</CA_VILL>
+                            <CA_HOUSE>N/A</CA_HOUSE>
+                            <CA_STREET>LUM</CA_STREET>
                             <CA_CAD9>KHM</CA_CAD9>
                         </ADDRESS>
                         <ADDRESS>
-                            <CA_LOAD_DT>03/02/2016</CA_LOAD_DT>
+                            <CA_LOAD_DT>13/03/2018</CA_LOAD_DT>
                             <CA_CADT>RESID</CA_CADT>
-                            <CA_CAD1A lang="kh">ត្រពាំងខ្យង អង្គភ្នំតូច អង្គរជ័យ</CA_CAD1A>
-                            <CA_CAD8A lang="kh">7</CA_CAD8A>
+                            <CA_PROV>12</CA_PROV>
+                            <CA_DIST>1204</CA_DIST>
+                            <CA_COMM>120409</CA_COMM>
+                            <CA_VILL>12040907</CA_VILL>
+                            <CA_HOUSE>N/A</CA_HOUSE>
+                            <CA_STREET>THREE HUNDRED AND THIRTY SIX</CA_STREET>
                             <CA_CAD9>KHM</CA_CAD9>
                         </ADDRESS>
                     </ADDRESSES>
                     <EMPLOYERS>
                         <EMPLOYER>
-                            <EDLD>13/03/2020</EDLD>
+                            <EDLD>17/03/2020</EDLD>
                             <ETYP>C</ETYP>
                             <ESLF>Y</ESLF>
-                            <EOCE>BUSINESS OWNER</EOCE>
-                            <ELEN>10</ELEN>
-                            <ETMS>5000000.00</ETMS>
-                            <ECURR>KHR</ECURR>
-                            <ENME>NONE</ENME>
+                            <EOCE>RETAIL TRADE</EOCE>
+                            <ELEN>47</ELEN>
+                            <ETMS>2850.00</ETMS>
+                            <ECURR>USD</ECURR>
+                            <ENME>NAVY MAO</ENME>
                             <EADR>
-                                <EA_CADT>WORK</EA_CADT>
-                                <EA_PROV>03</EA_PROV>
-                                <EA_DIST>0301</EA_DIST>
-                                <EA_COMM>030107</EA_COMM>
-                                <EA_VILL>03010701</EA_VILL>
+                                <EA_CADT>RESID</EA_CADT>
+                                <EA_PROV>12</EA_PROV>
+                                <EA_DIST>1208</EA_DIST>
+                                <EA_COMM>120802</EA_COMM>
+                                <EA_VILL>12080209</EA_VILL>
+                                <EA_AD9>KHM</EA_AD9>
+                            </EADR>
+                        </EMPLOYER>
+                        <EMPLOYER>
+                            <EDLD>05/06/2018</EDLD>
+                            <ETYP>C</ETYP>
+                            <ESLF>N</ESLF>
+                            <ELEN>0</ELEN>
+                            <ETMS>0.00</ETMS>
+                            <EADR>
+                                <EA_PROV>12</EA_PROV>
+                                <EA_DIST>1209</EA_DIST>
+                                <EA_COMM>120917</EA_COMM>
+                                <EA_VILL>12091705</EA_VILL>
+                                <EA_AD9>KHM</EA_AD9>
+                            </EADR>
+                        </EMPLOYER>
+                        <EMPLOYER>
+                            <EDLD>05/12/2017</EDLD>
+                            <ETYP>C</ETYP>
+                            <ESLF>Y</ESLF>
+                            <EOCE>RENTAL ROOMS</EOCE>
+                            <ELEN>36</ELEN>
+                            <ETMS>3500.00</ETMS>
+                            <ECURR>USD</ECURR>
+                            <ENME>N/A</ENME>
+                            <EADR>
+                                <EA_CADT>RESID</EA_CADT>
+                                <EA_PROV>12</EA_PROV>
+                                <EA_DIST>1204</EA_DIST>
+                                <EA_COMM>120409</EA_COMM>
+                                <EA_VILL>12040903</EA_VILL>
+                                <EA_HOUSE>N/A</EA_HOUSE>
+                                <EA_STREET>THREE HUNDRED AND THIRTY SIX</EA_STREET>
                                 <EA_AD9>KHM</EA_AD9>
                             </EADR>
                         </EMPLOYER>
@@ -162,12 +701,618 @@
                         <ADVISORY_TEXT>NOADV</ADVISORY_TEXT>
                     </ADVISORY_SUMMARY_TEXT>
                     <SUMMARY>
-                        <CNT_PE>5</CNT_PE>
-                        <CNT_MTDE>5</CNT_MTDE>
-                        <CNT_ACC>1</CNT_ACC>
-                        <CNT_ACC_NORM>1</CNT_ACC_NORM>
+                        <CNT_PE>14</CNT_PE>
+                        <CNT_MTDE>1</CNT_MTDE>
+                        <CNT_ACC>11</CNT_ACC>
+                        <CNT_ACC_NORM>2</CNT_ACC_NORM>
                         <CNT_ACC_DELQ>0</CNT_ACC_DELQ>
-                        <CNT_ACC_CLO>0</CNT_ACC_CLO>
+                        <CNT_ACC_CLO>9</CNT_ACC_CLO>
+                        <CNT_ACC_REJ>0</CNT_ACC_REJ>
+                        <CNT_ACC_WRO>0</CNT_ACC_WRO>
+                        <CNT_GACC>1</CNT_GACC>
+                        <CNT_GACC_NORM>0</CNT_GACC_NORM>
+                        <CNT_GACC_DELQ>0</CNT_GACC_DELQ>
+                        <CNT_GACC_ACC_CLO>1</CNT_GACC_ACC_CLO>
+                        <CNT_GACC_REJ>0</CNT_GACC_REJ>
+                        <CNT_GACC_WRO>0</CNT_GACC_WRO>
+                        <EISDT>19/01/2012</EISDT>
+                        <TOT_LIMITS>
+                            <TOT_LIM_CURR>USD</TOT_LIM_CURR>
+                            <TOT_LIM>477000.00</TOT_LIM>
+                        </TOT_LIMITS>
+                        <TOT_GLIMITS>
+                            <TOT_GLIM_CURR>USD</TOT_GLIM_CURR>
+                            <TOT_GLIM>24500.00</TOT_GLIM>
+                        </TOT_GLIMITS>
+                        <TOT_LIABILITIES>
+                            <TOT_LIAB_CURR>USD</TOT_LIAB_CURR>
+                            <TOT_LIAB>19707.83</TOT_LIAB>
+                        </TOT_LIABILITIES>
+                        <TOT_GLIABILITIES>
+                            <TOT_GLIAB_CURR>USD</TOT_GLIAB_CURR>
+                            <TOT_GLIAB>0.00</TOT_GLIAB>
+                        </TOT_GLIABILITIES>
+                        <TOT_WO_AMT>
+                            <TOT_WO>0.00</TOT_WO>
+                        </TOT_WO_AMT>
+                        <TOT_GWO_AMT>
+                            <TOT_GWO>0.00</TOT_GWO>
+                        </TOT_GWO_AMT>
+                        <TOT_WO_OS_BALANCE>
+                            <TOT_WO_OS_BAL>0.00</TOT_WO_OS_BAL>
+                        </TOT_WO_OS_BALANCE>
+                        <TOT_GWO_OS_BALANCE>
+                            <TOT_GWO_OS_BAL>0.00</TOT_GWO_OS_BAL>
+                        </TOT_GWO_OS_BALANCE>
+                    </SUMMARY>
+                    <SCORE>
+                        <SC_SCORE>901</SC_SCORE>
+                        <SC_SCORECARD>BNK01</SC_SCORECARD>
+                        <SC_SCOREINDEX>4</SC_SCOREINDEX>
+                        <SC_ODDS>129</SC_ODDS>
+                        <SC_BAD>0.76</SC_BAD>
+                        <SC_MINIMUM>-200</SC_MINIMUM>
+                        <SC_MAXIMUM>1200</SC_MAXIMUM>
+                    </SCORE>
+                </CONSUMER>
+                <CONSUMER>
+                    <CAPL>P</CAPL>
+                    <CID>
+                        <CID1>N</CID1>
+                        <CID2 lang="kh">010834593</CID2>
+                        <CID3>25/04/2023</CID3>
+                    </CID>
+                    <PROVIDED>
+                        <PCNAM>
+                            <PCNMFE>OUNG</PCNMFE>
+                            <PCNM1E>YUTHSEREY</PCNM1E>
+                        </PCNAM>
+                        <PCDOB>16/04/1996</PCDOB>
+                        <PCPLB>
+                            <PCPLBC>KHM</PCPLBC>
+                            <PCPLBP>12</PCPLBP>
+                        </PCPLB>
+                        <PCGND>M</PCGND>
+                        <PCMAR>U</PCMAR>
+                        <PCNAT>KHM</PCNAT>
+                    </PROVIDED>
+                    <AVAILABLE>
+                        <ACID>
+                            <ACID1>D</ACID1>
+                            <ACID2 lang="kh">B.PP00053532</ACID2>
+                        </ACID>
+                        <ACNAM>
+                            <ACNMFA lang="kh">អ៊ុង</ACNMFA>
+                            <ACNM1A lang="kh">យុត្តិសេរី</ACNM1A>
+                            <ACNMFE>OUNG</ACNMFE>
+                            <ACNM1E>YUTHSEREY</ACNM1E>
+                        </ACNAM>
+                        <ACDOB>16/04/1996</ACDOB>
+                        <ACPLB>
+                            <ACPLBC>KHM</ACPLBC>
+                            <ACPLBP>12</ACPLBP>
+                            <ACPLBD>1204</ACPLBD>
+                            <ACPLBCM>120409</ACPLBCM>
+                        </ACPLB>
+                        <ACGND>M</ACGND>
+                        <ACMAR>S</ACMAR>
+                        <ACNAT>KHM</ACNAT>
+                        <ACEML>oungyuthsereytti@gmail.com</ACEML>
+                    </AVAILABLE>
+                    <ADDITIONAL_IDS>
+                        <ADDITIONAL_ID>
+                            <AID_CID1>D</AID_CID1>
+                            <AID_CID2 lang="kh">B.PP00053532</AID_CID2>
+                            <AID_LOADDT>07/02/2017</AID_LOADDT>
+                        </ADDITIONAL_ID>
+                    </ADDITIONAL_IDS>
+                    <ADDITIONAL_NAMES>
+                        <ADDITIONAL_NAME>
+                            <ANM_CNMFA lang="kh">អ៊ុង</ANM_CNMFA>
+                            <ANM_CNM1A lang="kh">យុត្តិសេរី</ANM_CNM1A>
+                            <ANM_LOAD_DT>07/12/2017</ANM_LOAD_DT>
+                        </ADDITIONAL_NAME>
+                        <ADDITIONAL_NAME>
+                            <ANM_CNMFA lang="kh">អ៊ុង</ANM_CNMFA>
+                            <ANM_CNM1A lang="kh">យុត្ថិសេរី</ANM_CNM1A>
+                            <ANM_LOAD_DT>05/12/2017</ANM_LOAD_DT>
+                        </ADDITIONAL_NAME>
+                        <ADDITIONAL_NAME>
+                            <ANM_CNMFA lang="kh">អ៊ុង</ANM_CNMFA>
+                            <ANM_CNM1A lang="kh">យុត្តិសេរី</ANM_CNM1A>
+                            <ANM_CNMFE>OUNG</ANM_CNMFE>
+                            <ANM_CNM1E>YUTHSEREY</ANM_CNM1E>
+                            <ANM_LOAD_DT>14/02/2015</ANM_LOAD_DT>
+                        </ADDITIONAL_NAME>
+                    </ADDITIONAL_NAMES>
+                    <PREV_ENQUIRIES>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>17/03/2020</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>20190001324</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>20000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFE>OUNG</PE_NMFE>
+                                <PE_NM1E>YUTHSEREY</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>15/03/2019</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-1046</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>10000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">អ៊ុង</PE_NMFA>
+                                <PE_NM1A lang="kh">យុត្តិសេរី</PE_NM1A>
+                                <PE_NMFE>Oung</PE_NMFE>
+                                <PE_NM1E>Yuthserey</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>20/06/2018</PE_DATE>
+                            <PE_ENQR>TOYOTA TSUSHO FINANCE (CAMBODIA) PLC.</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>S</PE_ACCT>
+                            <PE_MEMB_REF>11000053264</PE_MEMB_REF>
+                            <PE_PRD>CAL</PE_PRD>
+                            <PE_AMOUNT>41640.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">អ៊ុង</PE_NMFA>
+                                <PE_NM1A lang="kh">យុត្តិសេរី</PE_NM1A>
+                                <PE_NMFE>OUNG</PE_NMFE>
+                                <PE_NM1E>YUTHSEREY</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>13/03/2018</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-874</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>11000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">អ៊ុង</PE_NMFA>
+                                <PE_NM1A lang="kh">យុត្ថិសេរី</PE_NM1A>
+                                <PE_NMFE>Oung</PE_NMFE>
+                                <PE_NM1E>Yuthserey</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>07/12/2017</PE_DATE>
+                            <PE_ENQR>CHAILEASE ROYAL LEASING</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>CRL-1712050</PE_MEMB_REF>
+                            <PE_PRD>CAL</PE_PRD>
+                            <PE_AMOUNT>17000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">អ៊ុង​</PE_NMFA>
+                                <PE_NM1A lang="kh">យុត្តិសេរី</PE_NM1A>
+                                <PE_NMFE>Oung</PE_NMFE>
+                                <PE_NM1E>Yuthserey</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>05/12/2017</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-831</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>12000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">អ៊ុង</PE_NMFA>
+                                <PE_NM1A lang="kh">យុត្ថិសេរី</PE_NM1A>
+                                <PE_NMFE>OUNG</PE_NMFE>
+                                <PE_NM1E>YUTHSEREY</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>14/03/2017</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-701</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>11000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">អ៊ុង</PE_NMFA>
+                                <PE_NM1A lang="kh">យុត្តិសេរី</PE_NM1A>
+                                <PE_NMFE>Oung</PE_NMFE>
+                                <PE_NM1E>Yuthserey</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>20/09/2016</PE_DATE>
+                            <PE_ENQR>TOYOTA TSUSHO FINANCE (CAMBODIA) PLC.</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>S</PE_ACCT>
+                            <PE_MEMB_REF>5000007116</PE_MEMB_REF>
+                            <PE_PRD>CAL</PE_PRD>
+                            <PE_AMOUNT>24500.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">អ៊ុង</PE_NMFA>
+                                <PE_NM1A lang="kh">យុត្តិសេរី</PE_NM1A>
+                                <PE_NMFE>oung</PE_NMFE>
+                                <PE_NM1E>yuthserey</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>18/02/2016</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-512</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>55000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFE>Oung</PE_NMFE>
+                                <PE_NM1E>Yuthserey</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>14/02/2015</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-369</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>60000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFE>Oung</PE_NMFE>
+                                <PE_NM1E>Yuthserey</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                    </PREV_ENQUIRIES>
+                    <ACC_DETAILS>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>HVL</ACC_PRD>
+                            <ACC_ACC_NO>0213000099480</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>13/03/2015</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>13/03/2016</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>14/03/2016</ACC_CLSD_DT>
+                            <ACC_TNR>12</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>55298.69</ACC_INSTL>
+                            <ACC_SEC>LT</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>55298.69</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>14/03/2016</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/03/2016</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>C00000000000Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>HVL</ACC_PRD>
+                            <ACC_ACC_NO>0213000114298</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>14/03/2016</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>14/03/2017</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>14/03/2017</ACC_CLSD_DT>
+                            <ACC_TNR>12</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>11070.20</ACC_INSTL>
+                            <ACC_SEC>LT</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>11070.20</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>14/03/2017</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/03/2017</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>C00000000000Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>TOYOTA TSUSHO FINANCE (CAMBODIA) PLC.</ACC_CRDTR>
+                            <ACC_PRD>CAL</ACC_PRD>
+                            <ACC_ACC_NO>11000041546</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>24500.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>26/09/2016</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>22/09/2021</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>27/06/2018</ACC_CLSD_DT>
+                            <ACC_TNR>60</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>595.00</ACC_INSTL>
+                            <ACC_SEC>MV</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>18705.47</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>27/06/2018</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>30/06/2018</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>C00000000000000000000Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>HVL</ACC_PRD>
+                            <ACC_ACC_NO>0212000134818</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>14/03/2017</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>13/03/2018</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>14/03/2018</ACC_CLSD_DT>
+                            <ACC_TNR>12</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>10077.22</ACC_INSTL>
+                            <ACC_SEC>LT</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>11077.22</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>14/03/2018</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/03/2018</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>C00000M00000Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>CHAILEASE ROYAL LEASING</ACC_CRDTR>
+                            <ACC_PRD>CAL</ACC_PRD>
+                            <ACC_ACC_NO>F1712041AA</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>17000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>12/12/2017</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>25/11/2022</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>N</ACC_STATUS>
+                            <ACC_TNR>59</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>440.00</ACC_INSTL>
+                            <ACC_SEC>MV</ACC_SEC>
+                            <ACC_CUB>13312.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>440.00</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>20/05/2019</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/05/2019</ACC_AS_OF_DT>
+                            <ACC_NXT_DU_DT>25/06/2019</ACC_NXT_DU_DT>
+                            <ACC_SUMMRY>00000000000000000Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>HVL</ACC_PRD>
+                            <ACC_ACC_NO>0212000162506</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>14/03/2018</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>13/03/2019</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>14/03/2019</ACC_CLSD_DT>
+                            <ACC_TNR>12</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>10089.32</ACC_INSTL>
+                            <ACC_SEC>LT</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>10089.32</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>14/03/2019</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/03/2019</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>C00000000000Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>TOYOTA TSUSHO FINANCE (CAMBODIA) PLC.</ACC_CRDTR>
+                            <ACC_PRD>CAL</ACC_PRD>
+                            <ACC_ACC_NO>11000053264</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>41640.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>22/06/2018</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>22/06/2023</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>N</ACC_STATUS>
+                            <ACC_TNR>59</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>815.00</ACC_INSTL>
+                            <ACC_SEC>MV</ACC_SEC>
+                            <ACC_CUB>37793.38</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>815.00</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>22/05/2019</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/05/2019</ACC_AS_OF_DT>
+                            <ACC_NXT_DU_DT>22/06/2019</ACC_NXT_DU_DT>
+                            <ACC_SUMMRY>00000000000QQ</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>HVL</ACC_PRD>
+                            <ACC_ACC_NO>0212000196652</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>14/03/2019</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>14/03/2025</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>N</ACC_STATUS>
+                            <ACC_TNR>72</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>192.91</ACC_INSTL>
+                            <ACC_SEC>LT</ACC_SEC>
+                            <ACC_CUB>9902.92</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>192.91</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>23/04/2019</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>30/04/2019</ACC_AS_OF_DT>
+                            <ACC_NXT_DU_DT>23/05/2019</ACC_NXT_DU_DT>
+                            <ACC_SUMMRY>M0Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>WCL</ACC_PRD>
+                            <ACC_ACC_NO>0212000196652</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>14/03/2019</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>14/03/2025</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>N</ACC_STATUS>
+                            <ACC_TNR>72</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>192.91</ACC_INSTL>
+                            <ACC_SEC>NO</ACC_SEC>
+                            <ACC_CUB>9804.91</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>192.91</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>23/05/2019</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/05/2019</ACC_AS_OF_DT>
+                            <ACC_NXT_DU_DT>24/06/2019</ACC_NXT_DU_DT>
+                            <ACC_SUMMRY>0MM</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                    </ACC_DETAILS>
+                    <ADDRESSES>
+                        <ADDRESS>
+                            <CA_LOAD_DT>17/03/2020</CA_LOAD_DT>
+                            <CA_CADT>RESID</CA_CADT>
+                            <CA_PROV>12</CA_PROV>
+                            <CA_DIST>1208</CA_DIST>
+                            <CA_COMM>120802</CA_COMM>
+                            <CA_VILL>12080209</CA_VILL>
+                            <CA_CAD9>KHM</CA_CAD9>
+                        </ADDRESS>
+                        <ADDRESS>
+                            <CA_LOAD_DT>15/03/2019</CA_LOAD_DT>
+                            <CA_CADT>RESID</CA_CADT>
+                            <CA_PROV>12</CA_PROV>
+                            <CA_DIST>1208</CA_DIST>
+                            <CA_COMM>120802</CA_COMM>
+                            <CA_VILL>12080204</CA_VILL>
+                            <CA_HOUSE>N/A</CA_HOUSE>
+                            <CA_STREET>LUM</CA_STREET>
+                            <CA_CAD9>KHM</CA_CAD9>
+                        </ADDRESS>
+                        <ADDRESS>
+                            <CA_LOAD_DT>13/03/2018</CA_LOAD_DT>
+                            <CA_CADT>RESID</CA_CADT>
+                            <CA_PROV>12</CA_PROV>
+                            <CA_DIST>1208</CA_DIST>
+                            <CA_COMM>120802</CA_COMM>
+                            <CA_VILL>12080209</CA_VILL>
+                            <CA_HOUSE>N/A</CA_HOUSE>
+                            <CA_STREET>LUM</CA_STREET>
+                            <CA_CAD9>KHM</CA_CAD9>
+                        </ADDRESS>
+                    </ADDRESSES>
+                    <EMPLOYERS>
+                        <EMPLOYER>
+                            <EDLD>17/03/2020</EDLD>
+                            <ETYP>C</ETYP>
+                            <ESLF>N</ESLF>
+                            <EOCE>
+                                <![CDATA[RESTAURANT& BAR]]>
+                            </EOCE>
+                            <ELEN>30</ELEN>
+                            <ETMS>700.00</ETMS>
+                            <ECURR>USD</ECURR>
+                            <ENME>QUEEN KTV</ENME>
+                            <EADR>
+                                <EA_CADT>RESID</EA_CADT>
+                                <EA_PROV>12</EA_PROV>
+                                <EA_DIST>1208</EA_DIST>
+                                <EA_COMM>120802</EA_COMM>
+                                <EA_VILL>12080209</EA_VILL>
+                                <EA_AD9>KHM</EA_AD9>
+                            </EADR>
+                        </EMPLOYER>
+                        <EMPLOYER>
+                            <EDLD>15/03/2019</EDLD>
+                            <ETYP>C</ETYP>
+                            <ESLF>N</ESLF>
+                            <EOCE>ADMINISTRATOR</EOCE>
+                            <ELEN>24</ELEN>
+                            <ETMS>350.00</ETMS>
+                            <ECURR>USD</ECURR>
+                            <ENME>N/A</ENME>
+                            <EADR>
+                                <EA_CADT>RESID</EA_CADT>
+                                <EA_PROV>12</EA_PROV>
+                                <EA_DIST>1208</EA_DIST>
+                                <EA_COMM>120802</EA_COMM>
+                                <EA_VILL>12080204</EA_VILL>
+                                <EA_HOUSE>N/A</EA_HOUSE>
+                                <EA_STREET>LUM</EA_STREET>
+                                <EA_AD9>KHM</EA_AD9>
+                            </EADR>
+                        </EMPLOYER>
+                        <EMPLOYER>
+                            <EDLD>20/06/2018</EDLD>
+                            <ETYP>C</ETYP>
+                            <ESLF>N</ESLF>
+                            <EOCA lang="kh">រដ្ជាបាល</EOCA>
+                            <EOCE>STAFF</EOCE>
+                            <ELEN>18</ELEN>
+                            <ETMS>850.00</ETMS>
+                            <ECURR>USD</ECURR>
+                            <ENMA lang="kh">ឌឹ ឃ្វីនស៍ ខេ ធី វី</ENMA>
+                            <ENME>THE QUEEN KTV</ENME>
+                            <EADR>
+                                <EA_PROV>12</EA_PROV>
+                                <EA_DIST>1208</EA_DIST>
+                                <EA_COMM>120808</EA_COMM>
+                                <EA_VILL>12080804</EA_VILL>
+                                <EA_AD9>KHM</EA_AD9>
+                            </EADR>
+                        </EMPLOYER>
+                    </EMPLOYERS>
+                    <ADVISORY_SUMMARY_TEXT>
+                        <ADVISORY_TEXT>NOADV</ADVISORY_TEXT>
+                    </ADVISORY_SUMMARY_TEXT>
+                    <SUMMARY>
+                        <CNT_PE>10</CNT_PE>
+                        <CNT_MTDE>1</CNT_MTDE>
+                        <CNT_ACC>9</CNT_ACC>
+                        <CNT_ACC_NORM>4</CNT_ACC_NORM>
+                        <CNT_ACC_DELQ>0</CNT_ACC_DELQ>
+                        <CNT_ACC_CLO>5</CNT_ACC_CLO>
                         <CNT_ACC_REJ>0</CNT_ACC_REJ>
                         <CNT_ACC_WRO>0</CNT_ACC_WRO>
                         <CNT_GACC>0</CNT_GACC>
@@ -176,40 +1321,634 @@
                         <CNT_GACC_ACC_CLO>0</CNT_GACC_ACC_CLO>
                         <CNT_GACC_REJ>0</CNT_GACC_REJ>
                         <CNT_GACC_WRO>0</CNT_GACC_WRO>
-                        <EISDT>28/07/2014</EISDT>
+                        <EISDT>13/03/2015</EISDT>
                         <TOT_LIMITS>
                             <TOT_LIM_CURR>USD</TOT_LIM_CURR>
-                            <TOT_LIM>4500.00</TOT_LIM>
+                            <TOT_LIM>413140.00</TOT_LIM>
                         </TOT_LIMITS>
                         <TOT_GLIMITS>
-                            <TOT_GLIM_CURR />
                             <TOT_GLIM>0.00</TOT_GLIM>
                         </TOT_GLIMITS>
                         <TOT_LIABILITIES>
                             <TOT_LIAB_CURR>USD</TOT_LIAB_CURR>
-                            <TOT_LIAB>0.00</TOT_LIAB>
+                            <TOT_LIAB>70813.21</TOT_LIAB>
                         </TOT_LIABILITIES>
                         <TOT_GLIABILITIES>
-                            <TOT_GLIAB_CURR />
                             <TOT_GLIAB>0.00</TOT_GLIAB>
                         </TOT_GLIABILITIES>
                         <TOT_WO_AMT>
-                            <TOT_WO_CURR />
                             <TOT_WO>0.00</TOT_WO>
                         </TOT_WO_AMT>
                         <TOT_GWO_AMT>
-                            <TOT_GWO_CURR />
                             <TOT_GWO>0.00</TOT_GWO>
                         </TOT_GWO_AMT>
                         <TOT_WO_OS_BALANCE>
-                            <TOT_WO_OS_CURR />
                             <TOT_WO_OS_BAL>0.00</TOT_WO_OS_BAL>
                         </TOT_WO_OS_BALANCE>
                         <TOT_GWO_OS_BALANCE>
-                            <TOT_GWO_OS_CURR />
                             <TOT_GWO_OS_BAL>0.00</TOT_GWO_OS_BAL>
                         </TOT_GWO_OS_BALANCE>
                     </SUMMARY>
+                    <SCORE>
+                        <SC_SCORE>848</SC_SCORE>
+                        <SC_SCORECARD>BNK01</SC_SCORECARD>
+                        <SC_SCOREINDEX>3</SC_SCOREINDEX>
+                        <SC_ODDS>89</SC_ODDS>
+                        <SC_BAD>1.10</SC_BAD>
+                        <SC_MINIMUM>-200</SC_MINIMUM>
+                        <SC_MAXIMUM>1200</SC_MAXIMUM>
+                    </SCORE>
+                </CONSUMER>
+                <CONSUMER>
+                    <CAPL>P</CAPL>
+                    <CID>
+                        <CID1>N</CID1>
+                        <CID2 lang="kh">010352485</CID2>
+                        <CID3>14/05/2024</CID3>
+                    </CID>
+                    <PROVIDED>
+                        <PCNAM>
+                            <PCNMFE>OUNG</PCNMFE>
+                            <PCNM1E>SETHYYUTH</PCNM1E>
+                        </PCNAM>
+                        <PCDOB>20/01/1955</PCDOB>
+                        <PCPLB>
+                            <PCPLBC>KHM</PCPLBC>
+                            <PCPLBP>12</PCPLBP>
+                        </PCPLB>
+                        <PCGND>M</PCGND>
+                        <PCMAR>U</PCMAR>
+                        <PCNAT>KHM</PCNAT>
+                    </PROVIDED>
+                    <AVAILABLE>
+                        <ACID>
+                            <ACID1>R</ACID1>
+                            <ACID2 lang="kh">1035</ACID2>
+                        </ACID>
+                        <ACNAM>
+                            <ACNMFA lang="kh">អ៊ុង</ACNMFA>
+                            <ACNM1A lang="kh">សិទី្ធយុត្តិ</ACNM1A>
+                            <ACNMFE>OUNG</ACNMFE>
+                            <ACNM1E>SETHYYUTH</ACNM1E>
+                        </ACNAM>
+                        <ACDOB>20/01/1955</ACDOB>
+                        <ACPLB>
+                            <ACPLBC>KHM</ACPLBC>
+                            <ACPLBP>12</ACPLBP>
+                        </ACPLB>
+                        <ACGND>M</ACGND>
+                        <ACMAR>M</ACMAR>
+                        <ACNAT>KHM</ACNAT>
+                    </AVAILABLE>
+                    <ADDITIONAL_IDS>
+                        <ADDITIONAL_ID>
+                            <AID_CID1>R</AID_CID1>
+                            <AID_CID2 lang="kh">1035</AID_CID2>
+                            <AID_LOADDT>17/05/2012</AID_LOADDT>
+                        </ADDITIONAL_ID>
+                    </ADDITIONAL_IDS>
+                    <ADDITIONAL_NAMES>
+                        <ADDITIONAL_NAME>
+                            <ANM_CNMFA lang="kh">អ៊ុង</ANM_CNMFA>
+                            <ANM_CNM1A lang="kh">សិទី្ធយុត្តិ</ANM_CNM1A>
+                            <ANM_LOAD_DT>15/03/2019</ANM_LOAD_DT>
+                        </ADDITIONAL_NAME>
+                        <ADDITIONAL_NAME>
+                            <ANM_CNMFA lang="kh">អ៊ុង</ANM_CNMFA>
+                            <ANM_CNM1A lang="kh">សិទ្ធិយុត្តិ</ANM_CNM1A>
+                            <ANM_LOAD_DT>20/06/2018</ANM_LOAD_DT>
+                        </ADDITIONAL_NAME>
+                        <ADDITIONAL_NAME>
+                            <ANM_CNMFA lang="kh">អ៊ុង</ANM_CNMFA>
+                            <ANM_CNM1A lang="kh">សិទ្ធីយុត្ថិ</ANM_CNM1A>
+                            <ANM_LOAD_DT>05/12/2017</ANM_LOAD_DT>
+                        </ADDITIONAL_NAME>
+                    </ADDITIONAL_NAMES>
+                    <PREV_ENQUIRIES>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>17/03/2020</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>20190001324</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>20000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFE>OUNG</PE_NMFE>
+                                <PE_NM1E>SETHYYUTH</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>15/03/2019</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-1046</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>10000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">អ៊ុង</PE_NMFA>
+                                <PE_NM1A lang="kh">សិទី្ធយុត្តិ</PE_NM1A>
+                                <PE_NMFE>Oung</PE_NMFE>
+                                <PE_NM1E>Sethyyuth</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>20/06/2018</PE_DATE>
+                            <PE_ENQR>TOYOTA TSUSHO FINANCE (CAMBODIA) PLC.</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>S</PE_ACCT>
+                            <PE_MEMB_REF>11000053264</PE_MEMB_REF>
+                            <PE_PRD>CAL</PE_PRD>
+                            <PE_AMOUNT>41640.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>G</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">អ៊ុង</PE_NMFA>
+                                <PE_NM1A lang="kh">សិទ្ធិយុត្តិ</PE_NM1A>
+                                <PE_NMFE>OUNG</PE_NMFE>
+                                <PE_NM1E>SETHYYUTH</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>13/03/2018</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-874</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>11000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">អ៊ុង</PE_NMFA>
+                                <PE_NM1A lang="kh">សិទ្ធីយុត្ថិ</PE_NM1A>
+                                <PE_NMFE>Oung</PE_NMFE>
+                                <PE_NM1E>Sethyyuth</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>07/12/2017</PE_DATE>
+                            <PE_ENQR>CHAILEASE ROYAL LEASING</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>CRL-1712050</PE_MEMB_REF>
+                            <PE_PRD>CAL</PE_PRD>
+                            <PE_AMOUNT>17000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">អ៊ុង</PE_NMFA>
+                                <PE_NM1A lang="kh">សិទ្ធីយុត្តិ</PE_NM1A>
+                                <PE_NMFE>Oung</PE_NMFE>
+                                <PE_NM1E>Sethyyuth</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>05/12/2017</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-831</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>12000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">អ៊ុង</PE_NMFA>
+                                <PE_NM1A lang="kh">សិទ្ធីយុត្ថិ</PE_NM1A>
+                                <PE_NMFE>OUNG</PE_NMFE>
+                                <PE_NM1E>SETHYYUTH</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>14/03/2017</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-701</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>11000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">អ៊ុង</PE_NMFA>
+                                <PE_NM1A lang="kh">សិទ្ធីយុត្តិ</PE_NM1A>
+                                <PE_NMFE>Oung</PE_NMFE>
+                                <PE_NM1E>Sethyyuth</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>18/02/2016</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-512</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>55000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFE>Oung</PE_NMFE>
+                                <PE_NM1E>Sethyyuth</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>14/02/2015</PE_DATE>
+                            <PE_ENQR>PHNOM PENH COMMERCIAL BANK</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>112-369</PE_MEMB_REF>
+                            <PE_PRD>WCL</PE_PRD>
+                            <PE_AMOUNT>60000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFE>Oung</PE_NMFE>
+                                <PE_NM1E>Sethyyuth</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>09/10/2012</PE_DATE>
+                            <PE_ENQR>ACLEDA BANK PLC</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>S</PE_ACCT>
+                            <PE_MEMB_REF>PDT-OUNGSETHYYUTH</PE_MEMB_REF>
+                            <PE_PRD>SME</PE_PRD>
+                            <PE_AMOUNT>300.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">អ៊ុង</PE_NMFA>
+                                <PE_NM1A lang="kh">សិទ្ធីយុត្តិ</PE_NM1A>
+                                <PE_NMFE>OUNG</PE_NMFE>
+                                <PE_NM1E>SETHYYUTH</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                        <PREV_ENQUIRY>
+                            <PE_DATE>17/05/2012</PE_DATE>
+                            <PE_ENQR>ACLEDA BANK PLC</PE_ENQR>
+                            <PE_TYPE>NA</PE_TYPE>
+                            <PE_ACCT>J</PE_ACCT>
+                            <PE_MEMB_REF>PDT-1083140</PE_MEMB_REF>
+                            <PE_PRD>SME</PE_PRD>
+                            <PE_AMOUNT>32000.00</PE_AMOUNT>
+                            <PE_CURR>USD</PE_CURR>
+                            <PE_APPL>P</PE_APPL>
+                            <PE_NAME>
+                                <PE_NMFA lang="kh">អ៊ុង</PE_NMFA>
+                                <PE_NM1A lang="kh">សិទ្ធីយុត្តិ</PE_NM1A>
+                                <PE_NMFE>OUNG</PE_NMFE>
+                                <PE_NM1E>SETHYYUTH</PE_NM1E>
+                            </PE_NAME>
+                        </PREV_ENQUIRY>
+                    </PREV_ENQUIRIES>
+                    <ACC_DETAILS>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>HVL</ACC_PRD>
+                            <ACC_ACC_NO>0213000099480</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>13/03/2015</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>13/03/2016</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>14/03/2016</ACC_CLSD_DT>
+                            <ACC_TNR>12</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>55298.69</ACC_INSTL>
+                            <ACC_SEC>LT</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>55298.69</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>14/03/2016</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/03/2016</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>C00000000000Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>HVL</ACC_PRD>
+                            <ACC_ACC_NO>0213000114298</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>14/03/2016</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>14/03/2017</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>14/03/2017</ACC_CLSD_DT>
+                            <ACC_TNR>12</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>11070.20</ACC_INSTL>
+                            <ACC_SEC>LT</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>11070.20</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>14/03/2017</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/03/2017</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>C00000000000Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>HVL</ACC_PRD>
+                            <ACC_ACC_NO>0212000134818</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>14/03/2017</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>13/03/2018</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>14/03/2018</ACC_CLSD_DT>
+                            <ACC_TNR>12</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>10077.22</ACC_INSTL>
+                            <ACC_SEC>LT</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>11077.22</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>14/03/2018</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/03/2018</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>C00000M00000Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>CHAILEASE ROYAL LEASING</ACC_CRDTR>
+                            <ACC_PRD>CAL</ACC_PRD>
+                            <ACC_ACC_NO>F1712041AA</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>17000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>12/12/2017</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>25/11/2022</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>N</ACC_STATUS>
+                            <ACC_TNR>59</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>440.00</ACC_INSTL>
+                            <ACC_SEC>MV</ACC_SEC>
+                            <ACC_CUB>13312.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>440.00</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>20/05/2019</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/05/2019</ACC_AS_OF_DT>
+                            <ACC_NXT_DU_DT>25/06/2019</ACC_NXT_DU_DT>
+                            <ACC_SUMMRY>00000000000000000Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>HVL</ACC_PRD>
+                            <ACC_ACC_NO>0212000162506</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>14/03/2018</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>13/03/2019</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>C</ACC_STATUS>
+                            <ACC_CLSD_DT>14/03/2019</ACC_CLSD_DT>
+                            <ACC_TNR>12</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>10089.32</ACC_INSTL>
+                            <ACC_SEC>LT</ACC_SEC>
+                            <ACC_CUB>0.00</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>10089.32</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>14/03/2019</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/03/2019</ACC_AS_OF_DT>
+                            <ACC_SUMMRY>C00000000000Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>HVL</ACC_PRD>
+                            <ACC_ACC_NO>0212000196652</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>14/03/2019</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>14/03/2025</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>N</ACC_STATUS>
+                            <ACC_TNR>72</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>192.91</ACC_INSTL>
+                            <ACC_SEC>LT</ACC_SEC>
+                            <ACC_CUB>9902.92</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>192.91</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>23/04/2019</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>30/04/2019</ACC_AS_OF_DT>
+                            <ACC_NXT_DU_DT>23/05/2019</ACC_NXT_DU_DT>
+                            <ACC_SUMMRY>M0Q</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                        <ACC_DETAIL>
+                            <ACC_CRDTR>PHNOM PENH COMMERCIAL BANK</ACC_CRDTR>
+                            <ACC_PRD>WCL</ACC_PRD>
+                            <ACC_ACC_NO>0212000196652</ACC_ACC_NO>
+                            <ACC_RST_LOAN>N</ACC_RST_LOAN>
+                            <ACC_CURR>USD</ACC_CURR>
+                            <ACC_LIMIT>55000.00</ACC_LIMIT>
+                            <ACC_ISSU_DT>14/03/2019</ACC_ISSU_DT>
+                            <ACC_PROD_EXP_DT>14/03/2025</ACC_PROD_EXP_DT>
+                            <ACC_STATUS>N</ACC_STATUS>
+                            <ACC_TNR>72</ACC_TNR>
+                            <ACC_FRQ>M</ACC_FRQ>
+                            <ACC_INSTL>192.91</ACC_INSTL>
+                            <ACC_SEC>NO</ACC_SEC>
+                            <ACC_CUB>9804.91</ACC_CUB>
+                            <ACC_ODB>0.00</ACC_ODB>
+                            <ACC_LAST_AMT_PD>192.91</ACC_LAST_AMT_PD>
+                            <ACC_LAST_PAY_DT>23/05/2019</ACC_LAST_PAY_DT>
+                            <ACC_AS_OF_DT>31/05/2019</ACC_AS_OF_DT>
+                            <ACC_NXT_DU_DT>24/06/2019</ACC_NXT_DU_DT>
+                            <ACC_SUMMRY>0MM</ACC_SUMMRY>
+                            <ACC_CAPL>P</ACC_CAPL>
+                            <ACC_LOAN_TYPE>S</ACC_LOAN_TYPE>
+                        </ACC_DETAIL>
+                    </ACC_DETAILS>
+                    <GUARANTEED_ACCOUNTS>
+                        <GRT_ACC_DETAIL>
+                            <GRT_CRDTR>TOYOTA TSUSHO FINANCE (CAMBODIA) PLC.</GRT_CRDTR>
+                            <GRT_PRD>CAL</GRT_PRD>
+                            <GRT_ACC_NO>11000053264</GRT_ACC_NO>
+                            <GRT_RST_LOAN>N</GRT_RST_LOAN>
+                            <GRT_CURR>USD</GRT_CURR>
+                            <GRT_LIMIT>41640.00</GRT_LIMIT>
+                            <GRT_ISSU_DT>22/06/2018</GRT_ISSU_DT>
+                            <GRT_PROD_EXP_DT>22/06/2023</GRT_PROD_EXP_DT>
+                            <GRT_STATUS>N</GRT_STATUS>
+                            <GRT_TNR>59</GRT_TNR>
+                            <GRT_FRQ>M</GRT_FRQ>
+                            <GRT_INSTL>815.00</GRT_INSTL>
+                            <GRT_SEC>MV</GRT_SEC>
+                            <GRT_CUB>37793.38</GRT_CUB>
+                            <GRT_ODB>0.00</GRT_ODB>
+                            <GRT_LAST_AMT_PD>815.00</GRT_LAST_AMT_PD>
+                            <GRT_LAST_PAY_DT>22/05/2019</GRT_LAST_PAY_DT>
+                            <GRT_AS_OF_DT>31/05/2019</GRT_AS_OF_DT>
+                            <GRT_NXT_DU_DT>22/06/2019</GRT_NXT_DU_DT>
+                            <GRT_SUMMRY>00000000000QQ</GRT_SUMMRY>
+                        </GRT_ACC_DETAIL>
+                    </GUARANTEED_ACCOUNTS>
+                    <ADDRESSES>
+                        <ADDRESS>
+                            <CA_LOAD_DT>17/03/2020</CA_LOAD_DT>
+                            <CA_CADT>RESID</CA_CADT>
+                            <CA_PROV>12</CA_PROV>
+                            <CA_DIST>1208</CA_DIST>
+                            <CA_COMM>120802</CA_COMM>
+                            <CA_VILL>12080209</CA_VILL>
+                            <CA_CAD9>KHM</CA_CAD9>
+                        </ADDRESS>
+                        <ADDRESS>
+                            <CA_LOAD_DT>15/03/2019</CA_LOAD_DT>
+                            <CA_CADT>RESID</CA_CADT>
+                            <CA_PROV>12</CA_PROV>
+                            <CA_DIST>1208</CA_DIST>
+                            <CA_COMM>120802</CA_COMM>
+                            <CA_VILL>12080204</CA_VILL>
+                            <CA_HOUSE>N/A</CA_HOUSE>
+                            <CA_STREET>LUM</CA_STREET>
+                            <CA_CAD9>KHM</CA_CAD9>
+                        </ADDRESS>
+                        <ADDRESS>
+                            <CA_LOAD_DT>13/03/2018</CA_LOAD_DT>
+                            <CA_CADT>RESID</CA_CADT>
+                            <CA_PROV>12</CA_PROV>
+                            <CA_DIST>1208</CA_DIST>
+                            <CA_COMM>120802</CA_COMM>
+                            <CA_VILL>12080209</CA_VILL>
+                            <CA_HOUSE>N/A</CA_HOUSE>
+                            <CA_STREET>LUM</CA_STREET>
+                            <CA_CAD9>KHM</CA_CAD9>
+                        </ADDRESS>
+                    </ADDRESSES>
+                    <EMPLOYERS>
+                        <EMPLOYER>
+                            <EDLD>17/03/2020</EDLD>
+                            <ETYP>C</ETYP>
+                            <ESLF>Y</ESLF>
+                            <EOCE>RETAIL TRADE</EOCE>
+                            <ELEN>47</ELEN>
+                            <ETMS>2850.00</ETMS>
+                            <ECURR>USD</ECURR>
+                            <ENME>SETHYYUTH OUNG</ENME>
+                            <EADR>
+                                <EA_CADT>RESID</EA_CADT>
+                                <EA_PROV>12</EA_PROV>
+                                <EA_DIST>1208</EA_DIST>
+                                <EA_COMM>120802</EA_COMM>
+                                <EA_VILL>12080209</EA_VILL>
+                                <EA_AD9>KHM</EA_AD9>
+                            </EADR>
+                        </EMPLOYER>
+                        <EMPLOYER>
+                            <EDLD>15/03/2019</EDLD>
+                            <ETYP>C</ETYP>
+                            <ESLF>Y</ESLF>
+                            <EOCE>RENTAL BUSNIESS</EOCE>
+                            <ELEN>60</ELEN>
+                            <ETMS>2850.00</ETMS>
+                            <ECURR>USD</ECURR>
+                            <ENME>N/A</ENME>
+                            <EADR>
+                                <EA_CADT>RESID</EA_CADT>
+                                <EA_PROV>12</EA_PROV>
+                                <EA_DIST>1208</EA_DIST>
+                                <EA_COMM>120802</EA_COMM>
+                                <EA_VILL>12080204</EA_VILL>
+                                <EA_HOUSE>N/A</EA_HOUSE>
+                                <EA_STREET>LUM</EA_STREET>
+                                <EA_AD9>KHM</EA_AD9>
+                            </EADR>
+                        </EMPLOYER>
+                        <EMPLOYER>
+                            <EDLD>20/06/2018</EDLD>
+                            <ETYP>C</ETYP>
+                            <ESLF>Y</ESLF>
+                            <EOCA lang="kh">ម្ចាស់</EOCA>
+                            <EOCE>OWNER</EOCE>
+                            <ELEN>84</ELEN>
+                            <ETMS>2000.00</ETMS>
+                            <ECURR>USD</ECURR>
+                            <ENMA lang="kh">បន្ទប់ជួល</ENMA>
+                            <ENME>RENT HOUSE</ENME>
+                            <EADR>
+                                <EA_PROV>12</EA_PROV>
+                                <EA_DIST>1209</EA_DIST>
+                                <EA_COMM>120905</EA_COMM>
+                                <EA_AD9>KHM</EA_AD9>
+                            </EADR>
+                        </EMPLOYER>
+                    </EMPLOYERS>
+                    <ADVISORY_SUMMARY_TEXT>
+                        <ADVISORY_TEXT>NOADV</ADVISORY_TEXT>
+                    </ADVISORY_SUMMARY_TEXT>
+                    <SUMMARY>
+                        <CNT_PE>11</CNT_PE>
+                        <CNT_MTDE>1</CNT_MTDE>
+                        <CNT_ACC>7</CNT_ACC>
+                        <CNT_ACC_NORM>3</CNT_ACC_NORM>
+                        <CNT_ACC_DELQ>0</CNT_ACC_DELQ>
+                        <CNT_ACC_CLO>4</CNT_ACC_CLO>
+                        <CNT_ACC_REJ>0</CNT_ACC_REJ>
+                        <CNT_ACC_WRO>0</CNT_ACC_WRO>
+                        <CNT_GACC>1</CNT_GACC>
+                        <CNT_GACC_NORM>1</CNT_GACC_NORM>
+                        <CNT_GACC_DELQ>0</CNT_GACC_DELQ>
+                        <CNT_GACC_ACC_CLO>0</CNT_GACC_ACC_CLO>
+                        <CNT_GACC_REJ>0</CNT_GACC_REJ>
+                        <CNT_GACC_WRO>0</CNT_GACC_WRO>
+                        <EISDT>13/03/2015</EISDT>
+                        <TOT_LIMITS>
+                            <TOT_LIM_CURR>USD</TOT_LIM_CURR>
+                            <TOT_LIM>347000.00</TOT_LIM>
+                        </TOT_LIMITS>
+                        <TOT_GLIMITS>
+                            <TOT_GLIM_CURR>USD</TOT_GLIM_CURR>
+                            <TOT_GLIM>41640.00</TOT_GLIM>
+                        </TOT_GLIMITS>
+                        <TOT_LIABILITIES>
+                            <TOT_LIAB_CURR>USD</TOT_LIAB_CURR>
+                            <TOT_LIAB>33019.83</TOT_LIAB>
+                        </TOT_LIABILITIES>
+                        <TOT_GLIABILITIES>
+                            <TOT_GLIAB_CURR>USD</TOT_GLIAB_CURR>
+                            <TOT_GLIAB>37793.38</TOT_GLIAB>
+                        </TOT_GLIABILITIES>
+                        <TOT_WO_AMT>
+                            <TOT_WO>0.00</TOT_WO>
+                        </TOT_WO_AMT>
+                        <TOT_GWO_AMT>
+                            <TOT_GWO>0.00</TOT_GWO>
+                        </TOT_GWO_AMT>
+                        <TOT_WO_OS_BALANCE>
+                            <TOT_WO_OS_BAL>0.00</TOT_WO_OS_BAL>
+                        </TOT_WO_OS_BALANCE>
+                        <TOT_GWO_OS_BALANCE>
+                            <TOT_GWO_OS_BAL>0.00</TOT_GWO_OS_BAL>
+                        </TOT_GWO_OS_BALANCE>
+                    </SUMMARY>
+                    <SCORE>
+                        <SC_SCORE>794</SC_SCORE>
+                        <SC_SCORECARD>BNK01</SC_SCORECARD>
+                        <SC_SCOREINDEX>3</SC_SCOREINDEX>
+                        <SC_ODDS>61</SC_ODDS>
+                        <SC_BAD>1.60</SC_BAD>
+                        <SC_MINIMUM>-200</SC_MINIMUM>
+                        <SC_MAXIMUM>1200</SC_MAXIMUM>
+                    </SCORE>
                 </CONSUMER>
                 <DISCLAIMER>
                     <DI_TEXT>This information has been collated from various sources. It does not represent the opinion of Credit Bureau Cambodia and Credit Bureau Cambodia assumes no responsibility for it. Credit Bureau Cambodia will not be liable (in contract or otherwise whatsoever) with respect to the collation or supply of the information or any use made of it, whether in relation to its accuracy or completeness or any other matter whatsoever. The information is supplied on a confidential basis to you and not for the use or reliance of any other party except any person on whose behalf you have sought the information.</DI_TEXT>

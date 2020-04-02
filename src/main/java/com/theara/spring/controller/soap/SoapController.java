@@ -21,13 +21,14 @@ public class SoapController {
         return "index.jsp";
     }
 
-    @RequestMapping(value ="/soap/api", method = RequestMethod.POST, consumes = MediaType.TEXT_XML_VALUE)
+    @RequestMapping(value ="/soap/api", method = RequestMethod.POST, consumes = MediaType.ALL_VALUE)
     public String test(@RequestBody REQUEST request, Model model) {
 
         String referenceNo = request.getMESSAGE().getENQUIRY().getENQUIRY_REFERENCE();
         model.addAttribute("referenceNo", referenceNo);
 
         return "mock-up-response";
+//        return "success-response";
     }
 
 }
