@@ -1,9 +1,12 @@
 package com.theara.spring.controller;
 
 import com.theara.spring.model.MData;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
@@ -14,6 +17,16 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @RequestMapping("/test/")
 public class WelcomeController {
+
+    @Autowired
+    @Qualifier("beanFromRootContext")
+    private MData beanFromRootContext;
+
+    @RequestMapping(value = "/response-body", method = RequestMethod.GET)
+    @ResponseBody
+    public MData responseBody() {
+        return beanFromRootContext;
+    }
 
     @RequestMapping(value = "/bean-name-view-resolver", method = RequestMethod.GET)
     public ModelAndView jsonView() {
