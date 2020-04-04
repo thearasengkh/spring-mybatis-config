@@ -17,15 +17,32 @@ public class WelcomeController {
 
     @RequestMapping(value = "/bean-name-view-resolver", method = RequestMethod.GET)
     public ModelAndView jsonView() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("user", makeDummyUserInfo() );
+        modelAndView.setViewName("jsonView");
+        return modelAndView;
+    }
 
+    @RequestMapping(value = "/first-xml-view-resolver", method = RequestMethod.GET)
+    public ModelAndView jSPViewByXmlViewResolver() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("firstXmlResolverWelcomeView");
+        return modelAndView;
+    }
+
+    @RequestMapping(value = "/second-xml-view-resolver", method = RequestMethod.GET)
+    public ModelAndView jsonViewByXmlViewResolver() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("user", makeDummyUserInfo() );
+        modelAndView.setViewName("secondXmlResolverWelcomeView");
+        return modelAndView;
+    }
+
+    private MData makeDummyUserInfo() {
         MData jsonObj = new MData();
         jsonObj.setString("name", "DARA SOMNANG");
         jsonObj.setString("job","Software Engineer");
-
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("user", jsonObj );
-        modelAndView.setViewName("jsonView");
-        return modelAndView;
+        return jsonObj;
     }
 
 }

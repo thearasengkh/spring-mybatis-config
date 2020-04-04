@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="firstXmlResolverWelcomeView" class="org.springframework.web.servlet.view.JstlView">
+        <property name="url" value="/WEB-INF/view/index.jsp" />
+    </bean>
+
+    <bean id="secondXmlResolverWelcomeView" class="org.springframework.web.servlet.view.json.MappingJackson2JsonView" />
+
+</beans>
