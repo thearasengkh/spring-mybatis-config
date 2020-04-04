@@ -38,6 +38,13 @@ public class WelcomeController {
         return modelAndView;
     }
 
+    @RequestMapping(value = "/thymeleaf-view-resolver", method = RequestMethod.GET)
+    public ModelAndView thymeleafViewResolver() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("/thymeleaf-view/index");
+        return modelAndView;
+    }
+
     private MData makeDummyUserInfo() {
         MData jsonObj = new MData();
         jsonObj.setString("name", "DARA SOMNANG");
