@@ -2,6 +2,11 @@ package com.theara.spring.config;
 
 import com.theara.spring.controller.WelcomeController;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter;
 import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;
 
@@ -10,13 +15,17 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
  * created on Apr 04, 2020
  */
 
-public class MvcServletConfig {
+@Configuration
+@EnableWebMvc
+//@ComponentScan(basePackages = { "com.theara.spring.controller" })
+public class MvcServletConfig extends WebMvcConfigurerAdapter {
 
     @Bean
     public WelcomeController welcomeController() {
         return new WelcomeController();
     }
 
+    /*
     @Bean
     public RequestMappingHandlerMapping requestMappingHandlerMapping() {
         return new RequestMappingHandlerMapping();
@@ -26,5 +35,6 @@ public class MvcServletConfig {
     public RequestMappingHandlerAdapter requestMappingHandlerAdapter() {
         return new RequestMappingHandlerAdapter();
     }
+    */
 
 }
