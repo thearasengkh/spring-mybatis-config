@@ -52,7 +52,7 @@
         <servlet-name>ExampleOne</servlet-name>
         <url-pattern>/jsp/ExampleOne</url-pattern>
     </servlet-mapping>
-        <servlet>
+    <servlet>
         <servlet-name>ExampleThree</servlet-name>
         <servlet-class>com.baeldung.jsp.ExampleThree</servlet-class>
     </servlet>
