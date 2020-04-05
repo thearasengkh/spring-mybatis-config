@@ -10,7 +10,7 @@
 
 <!--    <context:component-scan base-package="com.theara.spring.controller" />-->
 
-    <mvc:annotation-driven>
+    <mvc:annotation-driven content-negotiation-manager="contentNegotiationManager">
         <mvc:message-converters>
             <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter" />
             <bean class="org.springframework.http.converter.xml.MarshallingHttpMessageConverter" />
@@ -60,8 +60,14 @@
         <property name="favorPathExtension" value="true" />
         <property name="favorParameter" value="false" />
         <property name="ignoreAcceptHeader" value="true" />
-        <property name="defaultContentType" value="applcation/json" />
+        <property name="defaultContentType" value="application/json" />
         <property name="useJaf" value="false" />
+        <property name="mediaTypes">
+            <map>
+                <entry key="j" value="application/json" />
+                <entry key="x" value="application/xml" />
+            </map>
+        </property>
     </bean>
 
     <bean class="com.theara.spring.controller.soap.SoapController" />

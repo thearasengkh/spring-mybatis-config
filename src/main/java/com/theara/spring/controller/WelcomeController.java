@@ -27,12 +27,22 @@ public class WelcomeController {
     private MData beanFromRootContext;
 
     @RequestMapping(
-            value = "/content-negotiation-json",
-            produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
+            value = "/content-negotiation",
+            produces = {MediaType.APPLICATION_JSON_VALUE},
             method = RequestMethod.GET
     )
     @ResponseBody
-    public REQUEST contentNegotiationJson() {
+    public MData contentNegotiationJson() {
+        return makeDummyUserInfo();
+    }
+
+    @RequestMapping(
+            value = "/content-negotiation",
+            produces = {MediaType.APPLICATION_XML_VALUE},
+            method = RequestMethod.GET
+    )
+    @ResponseBody
+    public REQUEST contentNegotiationXml() {
         return makeDummyXmlData();
     }
 

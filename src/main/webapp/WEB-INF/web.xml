@@ -6,6 +6,8 @@
 >
     <display-name>Spring MVC XML Application</display-name>
 
+    <!-- this disallows org.springframework.web.SpringServletContainerInitializer to run and execute
+         application initializers. -->
     <absolute-ordering/>
 
     <!-- Spring root -->
