@@ -10,7 +10,7 @@ import org.springframework.web.context.support.AnnotationConfigWebApplicationCon
  * created on Apr 05, 2020
  */
 
-public class AnnotationsBasedApplicationInitializer /*extends AbstractContextLoaderInitializer*/ {
+public class AnnotationsBasedApplicationInitializer extends AbstractContextLoaderInitializer {
 
     //@Override
     protected WebApplicationContext createRootApplicationContext() {

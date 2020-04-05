@@ -10,7 +10,7 @@ import org.springframework.web.servlet.support.AbstractDispatcherServletInitiali
  * created on Apr 05, 2020
  */
 
-public class AnnotationBasedServletApplicationContextInitializer /*extends AbstractDispatcherServletInitializer*/ {
+public class AnnotationBasedServletApplicationContextInitializer extends AbstractDispatcherServletInitializer {
 
     //@Override
     protected WebApplicationContext createServletApplicationContext() {

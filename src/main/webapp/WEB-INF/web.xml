@@ -6,6 +6,8 @@
 >
     <display-name>Spring MVC XML Application</display-name>
 
+    <absolute-ordering/>
+
     <!-- Spring root -->
     <context-param>
         <param-name>contextClass</param-name>
