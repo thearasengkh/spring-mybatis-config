@@ -1,5 +1,6 @@
 package com.theara.spring.controller;
 
+import com.theara.spring.controller.abstracts.AbstractMessageSourceController;
 import com.theara.spring.model.MData;
 import com.theara.spring.model.cbc.ENQUIRY;
 import com.theara.spring.model.cbc.MESSAGE;
@@ -13,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.Locale;
+
 /**
  * @author Theara Seng
  * created on Apr 04, 2020
@@ -20,7 +23,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 @RequestMapping("/test/")
-public class WelcomeController {
+public class WelcomeController extends AbstractMessageSourceController {
 
     @Autowired
     @Qualifier("beanFromRootContext")
@@ -80,6 +83,18 @@ public class WelcomeController {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("/thymeleaf-view/index");
         return modelAndView;
+    }
+
+    @RequestMapping(value = "/message-source", method = RequestMethod.GET)
+    @ResponseBody
+    public MData messageSource() {
+
+        String earth = this.messageSource.getMessage("earth", null, Locale.FRANCE);
+        String hello = this.messageSource.getMessage("hello_x_how_are_you", new String[]{earth}, Locale.FRANCE);
+
+        MData output = new MData();
+        output.setString("message", hello);
+        return output;
     }
 
     private MData makeDummyUserInfo() {

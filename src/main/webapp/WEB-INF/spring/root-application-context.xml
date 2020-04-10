@@ -12,4 +12,9 @@
     <import resource="datasource-config.xml" />
     -->
 
+    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basename" value="messages/label" />
+        <property name="useCodeAsDefaultMessage" value="true" />
+    </bean>
+
 </beans>
