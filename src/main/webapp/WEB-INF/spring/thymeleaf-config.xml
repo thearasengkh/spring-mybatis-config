@@ -17,7 +17,11 @@
                 </property>
             </bean>
         </property>
-        <property name="order" value="2" />
+        <property name="order" value="11" />
+
+        <!-- A set of name patterns that will applied to determine whether a view name returned by a controller will be resolved by this resolver or not -->
+        <property name="viewNames" value="thymeleaf-view/*,/thymeleaf-view/*" />
+
     </bean>
 
 </beans>

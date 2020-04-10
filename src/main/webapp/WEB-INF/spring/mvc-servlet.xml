@@ -47,13 +47,16 @@
     <!-- Import Thymeleaf View Resolver Bean -->
     <import resource="thymeleaf-config.xml" />
 
+    <!-- i18n -->
+    <import resource="i18n-config.xml" />
+
     <!-- JSP View Resolver -->
     <!-- JSP View Resolver should have the lowest priority or it will stop other view resolvers from being executed -->
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />
         <property name="prefix" value="/WEB-INF/view/" />
         <property name="suffix" value=".jsp" />
-        <property name="order" value="999" />
+        <property name="order" value="99" />
     </bean>
 
     <bean id="contentNegotiationManager" class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">

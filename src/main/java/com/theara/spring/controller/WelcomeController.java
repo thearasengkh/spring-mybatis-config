@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -81,20 +82,27 @@ public class WelcomeController extends AbstractMessageSourceController {
     @RequestMapping(value = "/thymeleaf-view-resolver", method = RequestMethod.GET)
     public ModelAndView thymeleafViewResolver() {
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("/thymeleaf-view/index");
+        modelAndView.setViewName("thymeleaf-view/index");
         return modelAndView;
     }
 
     @RequestMapping(value = "/message-source", method = RequestMethod.GET)
     @ResponseBody
-    public MData messageSource() {
+    public MData messageSource(Locale locale) {
 
-        String earth = this.messageSource.getMessage("earth", null, Locale.FRANCE);
-        String hello = this.messageSource.getMessage("hello_x_how_are_you", new String[]{earth}, Locale.FRANCE);
+        String earth = this.messageSource.getMessage("earth", null, locale);
+        String hello = this.messageSource.getMessage("hello_x_how_are_you", new String[]{earth}, locale);
 
         MData output = new MData();
         output.setString("message", hello);
         return output;
+    }
+
+    @RequestMapping(value = "/i18n-jsp", method = RequestMethod.GET)
+    public String i18nJsp(Locale locale, Model model) {
+        String earth = this.messageSource.getMessage("earth", null, "default", locale);
+        model.addAttribute("arg", earth);
+        return "i18n";
     }
 
     private MData makeDummyUserInfo() {
