@@ -11,6 +11,13 @@
     <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
         <property name="basename" value="messages.label" />
         <property name="useCodeAsDefaultMessage" value="true" />
+
+        <!-- messages of child will override some of the messages from parent -->
+        <property name="parentMessageSource">
+            <bean class="org.springframework.context.support.ResourceBundleMessageSource">
+                <property name="basename" value="application" />
+            </bean>
+        </property>
     </bean>
 
     <!-- It could be SessionLocaleResolver or FixedLocaleResolver -->
