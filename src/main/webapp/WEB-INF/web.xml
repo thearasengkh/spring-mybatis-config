@@ -47,6 +47,18 @@
 
     <!-- JSP Servlet -->
 
+    <!-- start Security Filter -->
+    <filter>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <url-pattern>/secure/*</url-pattern>
+    </filter-mapping>
+    <!-- end Security Filter -->
+
     <!--
     <servlet>
         <servlet-name>ExampleOne</servlet-name>

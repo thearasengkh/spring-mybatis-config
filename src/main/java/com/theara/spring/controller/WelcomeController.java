@@ -26,7 +26,7 @@ import java.util.Locale;
 @RequestMapping("/test/")
 public class WelcomeController extends AbstractMessageSourceController {
 
-    @Autowired
+    @Autowired(required = false)
     @Qualifier("beanFromRootContext")
     private MData beanFromRootContext;
 

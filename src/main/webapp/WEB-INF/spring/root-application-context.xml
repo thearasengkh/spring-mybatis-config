@@ -12,4 +12,7 @@
     <import resource="datasource-config.xml" />
     -->
 
+    <!-- Security -->
+    <import resource="security-config.xml" />
+
 </beans>
