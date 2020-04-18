@@ -1,6 +1,7 @@
 package com.theara.spring.repository;
 
 import com.theara.spring.model.MData;
+import com.theara.spring.model.common.UserDto;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -15,6 +16,10 @@ public class UserRepository extends BasedRepository {
 
 	public MData retrieveUserInfo(MData param) {
 		return this.selectOne(NAMESPACE, "retrieveUserInfo", param);
+	}
+
+	public UserDto retrieveUserDtoInfo(MData param) {
+		return this.selectOne(NAMESPACE, "retrieveUserDtoInfo", param);
 	}
 
 }

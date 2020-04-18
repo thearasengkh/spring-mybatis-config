@@ -15,7 +15,7 @@ public class BasedRepository {
 	@Autowired
 	private MDataDao dao;
 
-	public MData selectOne(final String namespace, final String statementID, MData input) {
+	public <T> T selectOne(final String namespace, final String statementID, MData input) {
 		return this.dao.selectOne(namespace, statementID, input);
 	}
 

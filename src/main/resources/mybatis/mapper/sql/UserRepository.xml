@@ -5,7 +5,14 @@
 
     <select id="retrieveUserInfo" resultType="MData">
     <![CDATA[
-        SELECT * FROM tbl_user
+        SELECT * FROM users
+        limit 1
+    ]]>
+    </select>
+
+    <select id="retrieveUserDtoInfo" resultType="com.theara.spring.model.common.UserDto">
+    <![CDATA[
+        SELECT * FROM users
         limit 1
     ]]>
     </select>
