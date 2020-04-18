@@ -9,8 +9,6 @@ import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
-
 /**
  * @author Theara Seng
  * created on Apr 15, 2020
@@ -33,7 +31,7 @@ public class UserController {
     }
 
     @PostMapping("/new")
-    public String register(@Valid @ModelAttribute UserDto user, Model model, Errors errors) {
+    public String register(@ModelAttribute UserDto user, Model model, Errors errors) {
 
         System.out.println("Hello world");
         model.addAttribute("user", user);
