@@ -13,7 +13,7 @@ public class MDataDaoImpl extends SqlSessionDaoSupport implements MDataDao {
 
     public <T> T selectOne(final String namespace, final String statementID, MData input) {
 
-        return this.getSqlSession().<T>selectOne(namespace.concat(".").concat(statementID));
+        return this.getSqlSession().<T>selectOne(namespace.concat(".").concat(statementID), input);
 
     }
 

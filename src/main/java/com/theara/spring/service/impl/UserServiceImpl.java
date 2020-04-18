@@ -25,7 +25,16 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public UserDto retrieveUserDtoInfo(MData param) {
-		return this.userRepository.retrieveUserDtoInfo(param);
+		MData user = this.retrieveUserInfo(param);
+		return this.getUserDto(user);
+	}
+
+	private UserDto getUserDto(MData userInfo) {
+		UserDto userDto = new UserDto();
+		userDto.setFirstName(userInfo.getString("firstName"));
+		userDto.setLastName(userInfo.getString("lastName"));
+		userDto.setEmail(userInfo.getString("email"));
+		return userDto;
 	}
 
 }

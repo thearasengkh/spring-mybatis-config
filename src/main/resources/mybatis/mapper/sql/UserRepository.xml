@@ -3,17 +3,15 @@
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.theara.spring.repository.UserRepository">
 
-    <select id="retrieveUserInfo" resultType="MData">
+    <select id="retrieveUserInfo" resultType="MData" parameterType="MData">
     <![CDATA[
-        SELECT * FROM users
-        limit 1
-    ]]>
-    </select>
-
-    <select id="retrieveUserDtoInfo" resultType="com.theara.spring.model.common.UserDto">
-    <![CDATA[
-        SELECT * FROM users
-        limit 1
+    SELECT
+          FIRST_NAME    AS "firstName"
+        , LAST_NAME     AS "lastName"
+        , EMAIL         AS "email"
+    FROM USERS
+    WHERE EMAIL = #{email}
+    LIMIT 1
     ]]>
     </select>
 

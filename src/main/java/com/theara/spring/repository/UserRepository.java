@@ -18,8 +18,4 @@ public class UserRepository extends BasedRepository {
 		return this.selectOne(NAMESPACE, "retrieveUserInfo", param);
 	}
 
-	public UserDto retrieveUserDtoInfo(MData param) {
-		return this.selectOne(NAMESPACE, "retrieveUserDtoInfo", param);
-	}
-
 }
