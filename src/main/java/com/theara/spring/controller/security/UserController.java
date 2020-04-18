@@ -30,13 +30,11 @@ public class UserController {
 
     }
 
-    @PostMapping("/new")
-    public String register(@ModelAttribute UserDto user, Model model, Errors errors) {
-
-        System.out.println("Hello world");
-        model.addAttribute("user", user);
-        return "thymeleaf-view/security/registration";
-
+    @PostMapping("")
+    @ResponseBody
+    public MData register(@RequestBody MData user) {
+        this.userService.registerUserInfo(user);
+        return user;
     }
 
     @GetMapping("/{email}")

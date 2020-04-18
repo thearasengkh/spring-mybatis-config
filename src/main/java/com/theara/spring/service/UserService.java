@@ -12,5 +12,6 @@ public interface UserService {
 
 	MData retrieveUserInfo(MData param);
 	UserDto retrieveUserDtoInfo(MData param);
+	int registerUserInfo(MData param);
 
 }

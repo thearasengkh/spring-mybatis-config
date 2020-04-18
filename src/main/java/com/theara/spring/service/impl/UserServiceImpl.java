@@ -29,6 +29,11 @@ public class UserServiceImpl implements UserService {
 		return this.getUserDto(user);
 	}
 
+	@Override
+	public int registerUserInfo(MData param) {
+		return this.userRepository.registerUserInfo(param);
+	}
+
 	private UserDto getUserDto(MData userInfo) {
 		UserDto userDto = new UserDto();
 		userDto.setFirstName(userInfo.getString("firstName"));

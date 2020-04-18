@@ -3,7 +3,7 @@
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.theara.spring.repository.UserRepository">
 
-    <select id="retrieveUserInfo" resultType="MData" parameterType="MData">
+    <select id="retrieveUserInfo" resultType="MData">
     <![CDATA[
     SELECT
           FIRST_NAME    AS "firstName"
@@ -14,5 +14,19 @@
     LIMIT 1
     ]]>
     </select>
+
+    <insert id="registerUserInfo">
+    <![CDATA[
+    INSERT INTO USERS (
+          FIRST_NAME
+        , EMAIL
+        , LAST_NAME
+    ) VALUES (
+          #{firstName}
+        , #{email}
+        , #{lastName}
+    )
+    ]]>
+    </insert>
 
 </mapper>

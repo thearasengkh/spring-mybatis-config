@@ -18,4 +18,8 @@ public class UserRepository extends BasedRepository {
 		return this.selectOne(NAMESPACE, "retrieveUserInfo", param);
 	}
 
+	public int registerUserInfo(MData param) {
+		return this.insert(NAMESPACE, "registerUserInfo", param);
+	}
+
 }
