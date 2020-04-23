@@ -45,6 +45,18 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
+    <!--
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>application-one</web-resource-name>
+            <url-pattern>/*</url-pattern>
+        </web-resource-collection>
+        <user-data-constraint>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>
+    </security-constraint>
+    -->
+
     <!-- JSP Servlet -->
 
     <!-- start Security Filter -->
@@ -87,7 +99,9 @@
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
 
+    <!--
     <error-page>
         <location>/errors</location>
     </error-page>
+    -->
 </web-app>

@@ -15,6 +15,10 @@ public class MData extends LinkedHashMap<String, Object> {
 
 	}
 
+	public MData(MData data) {
+		super(data);
+	}
+
 	public String getString(String key) {
 		return this.get(key) != null ? String.valueOf(this.get(key)) : null;
 	}
