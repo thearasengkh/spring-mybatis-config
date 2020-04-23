@@ -14,7 +14,7 @@
             <ENQUIRY_REFERENCE>${referenceNo}</ENQUIRY_REFERENCE>
             <RSP_REPORT>
                 <ENQUIRY_TYPE>NA</ENQUIRY_TYPE>
-                <REPORT_DATE>15/04/2020</REPORT_DATE>
+                <REPORT_DATE>21/04/2020</REPORT_DATE>
                 <ENQUIRY_NO>43245473</ENQUIRY_NO>
                 <PRODUCT_TYPE>WCL</PRODUCT_TYPE>
                 <NO_OF_APPLICANTS>1</NO_OF_APPLICANTS>
@@ -210,7 +210,7 @@
                             <ACC_SUMMRY>MMMMMMMMMMMMMMMMMMMMMMMM</ACC_SUMMRY>
                             <ACC_ADV_MSG />
                             <ACC_CAPL>P</ACC_CAPL>
-                            <ACC_LOAN_TYPE />
+                            <ACC_LOAN_TYPE>A</ACC_LOAN_TYPE>
                         </ACC_DETAIL>
                         <ACC_DETAIL>
                             <ACC_CRDTR>Advanced Bank of Asia Ltd</ACC_CRDTR>
@@ -237,7 +237,7 @@
                             <ACC_SUMMRY>000MMMMMMMMMMMMMMMMMMMMM</ACC_SUMMRY>
                             <ACC_ADV_MSG />
                             <ACC_CAPL>P</ACC_CAPL>
-                            <ACC_LOAN_TYPE />
+                            <ACC_LOAN_TYPE>B</ACC_LOAN_TYPE>
                         </ACC_DETAIL>
                     </ACC_DETAILS>
                     <GUARANTEED_ACCOUNTS>

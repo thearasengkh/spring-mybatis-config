@@ -45,7 +45,7 @@
     </bean>
 
     <!-- Import Thymeleaf View Resolver Bean -->
-    <import resource="thymeleaf-config.xml" />
+<!--    <import resource="thymeleaf-config.xml" />-->
 
     <!-- JSP View Resolver -->
     <!-- JSP View Resolver should have the lowest priority or it will stop other view resolvers from being executed -->
