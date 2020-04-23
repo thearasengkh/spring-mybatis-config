@@ -11,9 +11,17 @@ import org.mybatis.spring.support.SqlSessionDaoSupport;
 
 public class MDataDaoImpl extends SqlSessionDaoSupport implements MDataDao {
 
-    public MData selectOne(final String namespace, final String statementID, MData input) {
+    @Override
+    public <T> T selectOne(final String namespace, final String statementID, MData input) {
 
-        return this.getSqlSession().selectOne(namespace.concat(".").concat(statementID));
+        return this.getSqlSession().selectOne(namespace.concat(".").concat(statementID), input);
+
+    }
+
+    @Override
+    public int insert(final String namespace, final String statementID, MData input) {
+
+        return this.getSqlSession().insert(namespace.concat(".").concat(statementID), input);
 
     }
 

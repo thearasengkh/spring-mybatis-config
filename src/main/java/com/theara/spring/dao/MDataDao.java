@@ -9,6 +9,7 @@ import com.theara.spring.model.MData;
 
 public interface MDataDao {
 
-    MData selectOne(final String namespace, final String statementID, MData input);
+    <T> T selectOne(final String namespace, final String statementID, MData input);
+    int insert(final String namespace, final String statementID, MData input);
 
 }

@@ -1,6 +1,7 @@
 package com.theara.spring.service;
 
 import com.theara.spring.model.MData;
+import com.theara.spring.model.common.UserDto;
 
 /**
  * @author Theara Seng
@@ -10,5 +11,7 @@ import com.theara.spring.model.MData;
 public interface UserService {
 
 	MData retrieveUserInfo(MData param);
+	UserDto retrieveUserDtoInfo(MData param);
+	int registerUserInfo(MData param);
 
 }

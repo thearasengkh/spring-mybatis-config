@@ -11,11 +11,11 @@
 <head></head>
 <body>
 <h1>Login</h1>
-<form name='f' action="<c:url value='j_spring_security_check'/>" method='POST'>
+<form name='f' action="<c:url value='/login'/>" method='POST'>
     <table>
         <tr>
-            <td><label for="username">User:</label></td>
-            <td><input id="username" type='text' name='username' value=''></td>
+            <td><label for="email">Email:</label></td>
+            <td><input id="email" type='text' name='email' value=''></td>
         </tr>
         <tr>
             <td><label for="password">Password:</label></td>

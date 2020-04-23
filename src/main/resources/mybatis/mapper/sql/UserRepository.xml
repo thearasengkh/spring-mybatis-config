@@ -5,9 +5,37 @@
 
     <select id="retrieveUserInfo" resultType="MData">
     <![CDATA[
-        SELECT * FROM tbl_user
-        limit 1
+    SELECT
+          FIRST_NAME        AS "firstName"
+        , LAST_NAME         AS "lastName"
+        , EMAIL             AS "email"
+        , EMAIL_VERIFY_YN   AS "emailVerifyYN"
+        , ROLE              AS "role"
+        , PASSWORD          AS "password"
+    FROM USERS
+    WHERE EMAIL = #{email}
+    LIMIT 1
     ]]>
     </select>
+
+    <insert id="registerUserInfo">
+    <![CDATA[
+    INSERT INTO USERS (
+          FIRST_NAME
+        , EMAIL
+        , LAST_NAME
+        , EMAIL_VERIFY_YN
+        , ROLE
+        , PASSWORD
+    ) VALUES (
+          #{firstName}
+        , #{email}
+        , #{lastName}
+        , #{emailVerifyYN}
+        , #{role}
+        , #{password}
+    )
+    ]]>
+    </insert>
 
 </mapper>
