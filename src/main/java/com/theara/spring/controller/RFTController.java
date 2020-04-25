@@ -5,10 +5,11 @@ import com.theara.spring.model.MData;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
@@ -40,7 +41,7 @@ public class RFTController {
 		response.put( "handlingUserIp"					, null											);
 		response.put( "transactionCode"					, "300000"										);
 		response.put( "responseCode"					, "000"											);
-		response.put( "traceNo"							, traceNo++										);
+		response.put( "traceNo"							, traceNo++	+ ""								);
 		response.put( "errorMsg"						, "Normal Complete."							);
 		response.put( "senderBankCode"					, "058"											);
 		response.put( "transactionUniqueNumber"			, trxUnqNum										);
@@ -71,16 +72,59 @@ public class RFTController {
 
 	}
 
-	@PostMapping("/fundTransferChannel")
-	public MData registerOutboundAccountTransfer(@RequestBody MData request) throws Exception {
+	@RequestMapping(value = "/fundTransferChannel", method = RequestMethod.POST, consumes = MediaType.ALL_VALUE)
+	@ResponseBody
+	public MData registerOutboundAccountTransfer(HttpServletRequest servletRequest) throws Exception {
 
+		MData request = this.readJsonReq(servletRequest);
 		MData response = new MData(request);
-		System.out.println(objectMapper.writeValueAsString(response));
 
-		// set response
-//		response.setString("", );
+		String trxUnqNum = getTransactionUniqueNumber();
+		String msgId = String.format("%s%s", "ACMT/", trxUnqNum);
+		String currency = request.getString("currency");
+
+		response.put( "handlingUserId"					, null										);
+		response.put( "userDepartment"					, null										);
+		response.put( "userJobPosition"					, null										);
+		response.put( "handlingUserIp"					, null										);
+		response.put( "approvalId"						, null										);
+		response.put( "approvalIp"						, null										);
+		response.put( "transactionCode"					, "100000"									);
+		response.put( "responseCode"					, "000"										);
+		response.put( "sendDate"						, getSendDate()								);
+		response.put( "sendTime"						, getSendTime()								);
+		response.put( "traceNo"							, traceNo++ + ""							);
+		response.put( "errorMsg"						, null										);
+		response.put( "senderBankCode"					, "058"										);
+		response.put( "transactionUniqueNumber"			, trxUnqNum									);
+		response.put( "senderAccountPinNo"				, null										);
+		response.put( "msgId"							, msgId										);
+		response.put( "creationDateTime"				, getTransactionDateTime()					);
+		response.put( "numberOfTxs"						, 1											);
+		response.put( "controlSum"						, request.get("amount")						);
+		response.put( "senderBankName"					, "PHNOM PENH COMMERCIAL BANK"				);
+		response.put( "paymentInformationId"			, msgId										);
+		response.put( "paymentMethod"					, "TRF"										);
+		response.put( "requestedExecutionDate"			, getRequestedExecutionDate()				);
+		response.put( "debtorName"						, request.getString("senderName")			);
+		response.put( "debtorAccountNo"					, null										);
+		response.put( "debtorCcy"						, currency									);
+		response.put( "debtorBankBicfi"					, "PPCBKHPPXXX"								);
+		response.put( "trfTrxInfPaymentId"				, msgId										);
+		response.put( "trfTrxInfCcy"					, currency									);
+		response.put( "trfTrxInfAmt"					, request.get("amount")						);
+		response.put( "chargeBearer"					, "SHAR"									);
+		response.put( "creditorBankBicfi"				, "ACLBKHPPXXX"								);
+		response.put( "creditorName"					, request.getString("receiverName")			);
+		response.put( "creditorAccountNo"				, request.getString("receiverAccountNo")	);
+		response.put( "creditorCcy"						, "USD"										);
+		response.put( "fundTransferPurpose"				, null										);
+		response.put( "remittanceinformation1"			, null										);
+		response.put( "remittanceinformation2"			, null										);
+		response.put( "remittanceinformation3"			, null										);
+		response.put( "remittanceinformation4"			, null										);
+
 		return response;
-
 	}
 
 	private String getTransactionUniqueNumber() {
@@ -95,6 +139,21 @@ public class RFTController {
 	private String getTransactionDateTime() {
 		Date date = new Date();
 		return new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ss").format(date);
+	}
+
+	private String getSendDate() {
+		Date date = new Date();
+		return new SimpleDateFormat("yyyyMMdd").format(date);
+	}
+
+	private String getSendTime() {
+		Date date = new Date();
+		return new SimpleDateFormat("hhmmss").format(date);
+	}
+
+	private String getRequestedExecutionDate() {
+		Date date = new Date();
+		return new SimpleDateFormat("yyyy-MM-dd").format(date);
 	}
 
 	private MData readJsonReq(HttpServletRequest servletRequest) throws IOException {
