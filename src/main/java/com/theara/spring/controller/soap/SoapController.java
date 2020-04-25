@@ -24,7 +24,7 @@ public class SoapController {
         return "index.jsp";
     }
 
-    @RequestMapping(value ="/soap/api", method = RequestMethod.POST, consumes = MediaType.ALL_VALUE)
+    @RequestMapping(value ="/soap/api", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public String test(@RequestBody REQUEST request, @RequestHeader MultiValueMap<String, String> headers, Model model) throws Exception {
 
         this.printHeader( headers );

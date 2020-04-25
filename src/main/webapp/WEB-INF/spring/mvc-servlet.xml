@@ -73,5 +73,6 @@
 
     <bean class="com.theara.spring.controller.soap.SoapController" />
     <bean class="com.theara.spring.controller.WelcomeController" />
+    <bean class="com.theara.spring.controller.RFTController" />
 
 </beans>
