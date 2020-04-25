@@ -2,6 +2,7 @@ package com.theara.spring.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.theara.spring.model.MData;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
@@ -127,6 +128,38 @@ public class RFTController {
 		return response;
 	}
 
+	@RequestMapping(value = "/passCodeManagement", method = RequestMethod.POST, consumes = MediaType.ALL_VALUE)
+	@ResponseBody
+	public MData registerFundTransferPhoneNumber(HttpServletRequest servletRequest) throws Exception {
+
+		MData request = this.readJsonReq(servletRequest);
+		MData response = new MData(request);
+
+		String trxUnqNum = getTransactionUniqueNumber();
+		String msgId = String.format("%s%s", "ACMT/", trxUnqNum);
+		String currency = request.getString("currency");
+
+		response.put( "handlingUserId"		, null										);
+		response.put( "userDepartment"		, null										);
+		response.put( "userJobPosition"		, null										);
+		response.put( "handlingUserIp"		, null										);
+		response.put( "approvalId"			, null										);
+		response.put( "approvalIp"			, null										);
+		response.put( "responseCode"		, "000"										);
+		response.put( "errorMsg"			, "Normal Complete."						);
+		response.put( "senderAccountPinNo"	, null										);
+		response.put( "senderFee"			, BigDecimal.valueOf(0.51D)					);
+		response.put( "centerFee"			, BigDecimal.ZERO							);
+		response.put( "receiverFee"			, BigDecimal.valueOf(0.25D)					);
+		response.put( "receiverBankCode"	, "058"										);
+		response.put( "passCode"			, RandomStringUtils.randomAlphanumeric(6)	);
+		response.put( "cancelReason"		, null										);
+		response.put( "transactionUniqueNo"	, trxUnqNum									);
+		response.put( "traceNo"				, traceNo++ + ""							);
+
+		return response;
+	}
+
 	private String getTransactionUniqueNumber() {
 
 		Date date = new Date();
@@ -180,6 +213,7 @@ public class RFTController {
 //
 
 //	}
+
 //	private MData mockRegisterAccountTransfer() throws MBizException {
 //
 //		MData outputData = new MData();
@@ -197,6 +231,22 @@ public class RFTController {
 //		return outputData;
 //
 
+//	}
+
+//	private MData mockRegisterPasscode() {
+//
+//		MData outputData = new MData();
+//		outputData.setString( "interUniqueId", "" );
+//		outputData.setString( "transactionUniqueNumber", String.format( "0582021%s", this.getMockMilliSecond() ) );
+//		outputData.setString( "currency", "USD" );
+//		outputData.setString( "passCode", "AABBCC" );
+//		outputData.setBigDecimal( "amount", BigDecimal.valueOf( 100 ) );
+//		outputData.setBigDecimal( "senderFee", BigDecimal.valueOf( 0.51 ) );
+//		outputData.setBigDecimal( "centerFee", BigDecimal.valueOf( 0 ) );
+//		outputData.setBigDecimal( "receiverFee", BigDecimal.valueOf( 0.25 ) );
+//
+//		return outputData;
+//
 //	}
 
 }
